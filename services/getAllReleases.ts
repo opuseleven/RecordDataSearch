@@ -16,7 +16,6 @@ function getAllReleases(artist: Artist): Release[] {
   axios
     .get(artist.resource_url)
     .then((res) => setReleasesUrl(res.data.releases_url));
-  // work with api data
   axios
     .get(releasesUrl)
     .then((res) => setReleaseArr(res.data.releases));
