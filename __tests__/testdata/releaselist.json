@@ -1,0 +1,115 @@
+[
+        {
+            "id": 21688297,
+            "status": "Accepted",
+            "type": "release",
+            "format": "CD, Album",
+            "label": "Not On Label",
+            "title": "Ghost Stories",
+            "resource_url": "https://api.discogs.com/releases/21688297",
+            "role": "Main",
+            "artist": "Haunted Like Human",
+            "year": 2017,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 0,
+                    "in_collection": 1
+                }
+            }
+        },
+        {
+            "id": 21686611,
+            "status": "Accepted",
+            "type": "release",
+            "format": "CDr, EP",
+            "label": "Not On Label",
+            "title": "Folklore",
+            "resource_url": "https://api.discogs.com/releases/21686611",
+            "role": "Main",
+            "artist": "Haunted Like Human",
+            "year": 2018,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 0,
+                    "in_collection": 1
+                }
+            }
+        },
+        {
+            "id": 21688804,
+            "status": "Accepted",
+            "type": "release",
+            "format": "7\", Single, Mono, Etch, Num",
+            "label": "Not On Label",
+            "title": "Come a Little Closer (Take 2)",
+            "resource_url": "https://api.discogs.com/releases/21688804",
+            "role": "Main",
+            "artist": "Haunted Like Human",
+            "year": 2019,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 0,
+                    "in_collection": 1
+                }
+            }
+        },
+        {
+            "id": 21688852,
+            "status": "Accepted",
+            "type": "release",
+            "format": "7\", S/Sided, Single, Mono, Etch, Num",
+            "label": "Not On Label",
+            "title": "In The Woods (Take 2)",
+            "resource_url": "https://api.discogs.com/releases/21688852",
+            "role": "Main",
+            "artist": "Haunted Like Human",
+            "year": 2019,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 0,
+                    "in_collection": 1
+                }
+            }
+        },
+        {
+            "id": 2650496,
+            "title": "Tall Tales & Fables",
+            "type": "master",
+            "main_release": 21157165,
+            "artist": "Haunted Like Human",
+            "role": "Main",
+            "resource_url": "https://api.discogs.com/masters/2650496",
+            "year": 2021,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 0,
+                    "in_collection": 1
+                }
+            }
+        },
+        {
+            "id": 14718145,
+            "status": "Accepted",
+            "type": "release",
+            "format": "CD, Album",
+            "label": "Stop-Go Recordings",
+            "title": "Sunnymeade Live - The Best of the Showcase",
+            "resource_url": "https://api.discogs.com/releases/14718145",
+            "role": "TrackAppearance",
+            "artist": "Various",
+            "trackinfo": "River",
+            "year": 2018,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 0,
+                    "in_collection": 0
+                }
+            }
+        }
+    ]
