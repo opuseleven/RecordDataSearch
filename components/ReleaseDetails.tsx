@@ -1,5 +1,4 @@
 import { Release  } from '../types';
-import Image from 'next/image';
 import { useState, useEffect } from 'react';
 
 interface ReleaseDetailsProps {
@@ -20,7 +19,7 @@ const ReleaseDetails: React.FC<ReleaseDetailsProps> = ({ releases }) => {
         {
           displayedReleases && (
             displayedReleases.map((r: Release) => (
-              <li>
+              <li key={r.id.toString()}>
                 <h4>{r.title}</h4>
                 <h5>{r.artist}</h5>
                 <ul>
@@ -28,7 +27,6 @@ const ReleaseDetails: React.FC<ReleaseDetailsProps> = ({ releases }) => {
                   <li>{r.year}</li>
                   <li>{r.format}</li>
                 </ul>
-                <Image src={r.thumb} />
               </li>
             ))
           )
