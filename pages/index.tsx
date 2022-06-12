@@ -1,9 +1,13 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import type { NextPage } from 'next';
+import Head from 'next/head';
+import styles from '../styles/Home.module.css';
+import { useState } from 'react';
+import { SearchBar, ResultsContainer } from '../components';
 
 const Home: NextPage = () => {
+
+  const [artist, setArtist] = useState<string>('');
+
   return (
     <div className={styles.container}>
       <Head>
@@ -18,7 +22,9 @@ const Home: NextPage = () => {
           RecordDataSearch
         </h1>
 
-        
+        <SearchBar />
+
+        <ResultsContainer />
 
       </main>
 
