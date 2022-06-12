@@ -1,1 +1,1 @@
-export * from './ArtistNotFoundError';
+export * from './artistNotFoundError';

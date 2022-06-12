@@ -1,6 +1,8 @@
-function ArtistNotFoundError() {
+import { Artist } from '../types';
 
-  const returnArtist = {
+function artistNotFoundError() {
+
+  const returnArtist: Artist = {
     id: -1,
     type: 'error',
     user_data: {
@@ -17,4 +19,4 @@ function ArtistNotFoundError() {
   }
   return returnArtist;
 }
-export { ArtistNotFoundError };
+export { artistNotFoundError };
