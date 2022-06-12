@@ -1,0 +1,17 @@
+[
+  {
+    "id": 7628210,
+    "type": "artist",
+    "user_data": {
+      "in_wantlist": false,
+      "in_collection": false
+    },
+    "master_id": null,
+    "master_url": null,
+    "uri": "/artist/7628210-Haunted-Like-Human",
+    "title": "Haunted Like Human",
+    "thumb": "https://i.discogs.com/AHMUUkSPUsJtUg5yNxwV8v8D2fPsP9RiPkG52f3500U/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc2Mjgy/MTAtMTYzODEyOTg3/OS0xMTI5LmpwZWc.jpeg",
+    "cover_image": "https://i.discogs.com/YTIDy2TeiopyuCwhzcy7tulXTnuAXnXmjTul8QR0TZA/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc2Mjgy/MTAtMTYzODEyOTg3/OS0xMTI5LmpwZWc.jpeg",
+    "resource_url": "https://api.discogs.com/artists/7628210"
+ }
+]
