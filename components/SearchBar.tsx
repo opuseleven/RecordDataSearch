@@ -1,10 +1,10 @@
 import { useState } from 'react';
 
 interface SearchBarProps {
-  setArtist: React.Dispatch<React.SetStateAction<string>>
+  setArtistSearch: React.Dispatch<React.SetStateAction<string>>
 }
 
-const SearchBar: React.FC<SearchBarProps> = ({ setArtist }) => {
+const SearchBar: React.FC<SearchBarProps> = ({ setArtistSearch }) => {
 
   const [search, setSearch] = useState('');
 
@@ -13,7 +13,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ setArtist }) => {
   }
 
   function handleClick() {
-    setArtist(search);
+    setArtistSearch(search);
   }
 
   return (
