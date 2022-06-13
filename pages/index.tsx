@@ -25,8 +25,7 @@ const Home: NextPage = () => {
     const artistSearches: Artist[] = filterByArtists(data);
     const artistCheck = artistMatch(artistSearches, artistSearch);
     if (artistCheck.type === 'artist') {
-      const releaseList = getAllReleases(artistCheck);
-      setReleases(releaseList);
+      getAllReleases(artistCheck, setReleases);
     }
     setArtist(artistCheck);
   }, [data])
