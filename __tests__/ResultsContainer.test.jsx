@@ -8,7 +8,7 @@ describe('ResultsContainer component', () => {
   const testArtist = require('./testdata/artistdata.json');
 
   it('Component renders', () => {
-    render(<ResultsContainer releases={testReleases} artist={testArtist[0]} />);
+    render(<ResultsContainer artist={testArtist[0]} releasesUrl={'https://api.discogs.com/artists/7628210/releases'} />);
     expect(screen.getAllByRole('heading')[0]).toHaveTextContent('Haunted Like Human');
   })
 })
