@@ -19,7 +19,6 @@ const ArtistDetails: React.FC<ArtistDetailsProps> = ({ artist }) => {
       {
         displayedArtist && (
           <div>
-            <Image layout='fill' src={displayedArtist.cover_image} />
             <h3>{displayedArtist.title}</h3>
           </div>
         )
