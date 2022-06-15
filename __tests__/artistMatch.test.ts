@@ -11,4 +11,9 @@ describe('artistMatch service', () => {
     expect(testArtist.id).toBe(7628210);
     expect(testArtist).toBe(hlh);
   })
+
+  it('returns an error if artist can\'t be found', () => {
+    const testTwo = artistMatch(testData, 'none');
+    expect(testTwo.title).toBe('Error: Artist Not Found');
+  })
 })
