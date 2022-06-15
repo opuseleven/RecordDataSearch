@@ -1,7 +1,7 @@
 import { Artist } from '../types';
 import axios from 'axios';
 
-function getReleasesUrl(artist: Artist, setReleasesUrl: React.Dispatch<React.SetStateAction<string>> | any) {
+function getReleasesUrl(artist: Artist, setReleasesUrl: React.Dispatch<React.SetStateAction<string>>) {
 
   const url = 'https://api.discogs.com/artists/' + artist.id.toString();
 
