@@ -7,5 +7,6 @@ describe('filterByArtists service', () => {
   it('Filters out everything but artist results', () => {
     const artists = filterByArtists(testData);
     expect(artists[0]['type']).toBe('artist');
+    expect(artists.length).toBeLessThan(testData.length);
   })
 })
