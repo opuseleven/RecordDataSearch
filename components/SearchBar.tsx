@@ -12,15 +12,16 @@ const SearchBar: React.FC<SearchBarProps> = ({ setArtistSearch }) => {
     setSearch(e.target.value);
   }
 
-  function handleClick() {
+  function handleClick(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault()
     setArtistSearch(search);
   }
 
   return (
     <div>
-      <form>
+      <form onSubmit={(e) => handleClick(e)}>
         <input type="text" value={search} onChange={(e) => handleChange(e)} />
-        <button onClick={() => handleClick()}>Search</button>
+        <button>Search</button>
       </form>
     </div>
   )
