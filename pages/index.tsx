@@ -2,7 +2,7 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import { useState, useEffect } from 'react';
-import { SearchBar, ResultsContainer } from '../components';
+import { SearchBar, ResultsContainer, ReleaseDetails } from '../components';
 import { filterByArtists, artistMatch, getReleasesUrl } from '../services';
 import { Artist, Release } from '../types';
 import { artistNotFoundError } from '../errors';
@@ -61,6 +61,13 @@ if (artistSearch !== '') {
             artist && (
               <ResultsContainer artist={artist} releasesUrl={releasesUrl}
                 releases={releases} setReleases={setReleases} />
+            )
+          }
+        </div>
+        <div>
+          {
+            releases && (
+              <ReleaseDetails releases={releases} />
             )
           }
         </div>

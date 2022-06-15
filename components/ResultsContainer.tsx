@@ -12,17 +12,12 @@ interface ResultsContainerProps {
 
 const ResultsContainer: React.FC<ResultsContainerProps> = ({ artist, releasesUrl, releases, setReleases }) => {
 
-  const [displayedReleases, setDisplayedReleases] = useState<Release[]>();
   const [displayedArtist, setDisplayedArtist] = useState(artist);
 
   useEffect(() => {
     setDisplayedArtist(artist);
     setAllReleases(releasesUrl, setReleases);
   }, [artist])
-
-  useEffect(() => {
-    setDisplayedReleases(releases);
-  }, [releases])
 
   return (
     <div>
@@ -34,13 +29,6 @@ const ResultsContainer: React.FC<ResultsContainerProps> = ({ artist, releasesUrl
         }
       </div>
 
-      <div>
-        {
-          releases && (
-            <ReleaseDetails releases={releases} />
-          )
-        }
-      </div>
     </div>
   )
 }
