@@ -6,6 +6,6 @@ describe('Home page', () => {
 
   it('Page renders', () => {
     render(<Home />);
-    expect(screen.getByRole('heading')).toHaveTextContent('RecordDataSearch');
+    expect(screen.getAllByRole('heading')[0]).toHaveTextContent('RecordDataSearch');
   })
 })
