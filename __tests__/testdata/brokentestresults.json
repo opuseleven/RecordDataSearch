@@ -1,0 +1,2747 @@
+[
+        {
+            "country": "UK",
+            "year": "2019",
+            "format": [
+                "CD",
+                "EP"
+            ],
+            "label": [
+                "Not On Label"
+            ],
+            "type": "release",
+            "genre": [
+                "Electronic"
+            ],
+            "style": [
+                "Synth-pop"
+            ],
+            "id": 13757238,
+            "barcode": [
+                "194171065873"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 0,
+            "master_url": null,
+            "uri": "/Rrussell-Bell-Like-A-Human/release/13757238",
+            "catno": "none",
+            "title": "Rrussell Bell - Like-A-Human",
+            "thumb": "https://i.discogs.com/hcn9dixfojHxss971gc6SRWfWaWZZk6JoE4PUNXpg8k/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNzU3/MjM4LTE1NjA0NjE2/OTMtNDI4Mi5qcGVn.jpeg",
+            "cover_image": "https://i.discogs.com/pDQlF6fs2W0Lcutxuu383qB4Ue0ysu4XkOERUleduhk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNzU3/MjM4LTE1NjA0NjE2/OTMtNDI4Mi5qcGVn.jpeg",
+            "resource_url": "https://api.discogs.com/releases/13757238",
+            "community": {
+                "want": 4,
+                "have": 5
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "CD",
+                    "qty": "1",
+                    "descriptions": [
+                        "EP"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 7628210,
+            "type": "artist",
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": null,
+            "master_url": null,
+            "uri": "/artist/7628210-Haunted-Like-Human",
+            "title": "Haunted Like Human",
+            "thumb": "https://i.discogs.com/AHMUUkSPUsJtUg5yNxwV8v8D2fPsP9RiPkG52f3500U/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc2Mjgy/MTAtMTYzODEyOTg3/OS0xMTI5LmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/YTIDy2TeiopyuCwhzcy7tulXTnuAXnXmjTul8QR0TZA/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc2Mjgy/MTAtMTYzODEyOTg3/OS0xMTI5LmpwZWc.jpeg",
+            "resource_url": "https://api.discogs.com/artists/7628210"
+        },
+        {
+            "country": "US",
+            "year": "2006",
+            "format": [
+                "Cassette",
+                "EP",
+                "Unofficial Release"
+            ],
+            "label": [
+                "Human Ear Music"
+            ],
+            "type": "master",
+            "genre": [
+                "Rock"
+            ],
+            "style": [
+                "Lo-Fi",
+                "Experimental"
+            ],
+            "id": 1660671,
+            "barcode": [],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 1660671,
+            "master_url": "https://api.discogs.com/masters/1660671",
+            "uri": "/master/1660671-Ariel-Pinks-Haunted-Graffiti-Ariel-Friedman-EP",
+            "catno": "none",
+            "title": "Ariel Pink's Haunted Graffiti - Ariel (Friedman) EP",
+            "thumb": "https://i.discogs.com/jOxT0RTFEQX25xXzaW85dWt-2c1DZQOhiDrpXVEWxcY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0NTg2/NDc1LTE1Nzc2NTAx/MzYtMjg3NC5qcGVn.jpeg",
+            "cover_image": "https://i.discogs.com/T95SkOgip7Oj6-jcnHVglo49vmhKz158rIYBT_z9198/rs:fit/g:sm/q:90/h:846/w:553/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0NTg2/NDc1LTE1Nzc2NTAx/MzYtMjg3NC5qcGVn.jpeg",
+            "resource_url": "https://api.discogs.com/masters/1660671",
+            "community": {
+                "want": 32,
+                "have": 19
+            }
+        },
+        {
+            "country": "US",
+            "year": "2006",
+            "format": [
+                "File",
+                "MP3",
+                "EP"
+            ],
+            "label": [
+                "Human Ear Music"
+            ],
+            "type": "release",
+            "genre": [
+                "Rock",
+                "Pop"
+            ],
+            "style": [
+                "Lo-Fi"
+            ],
+            "id": 1798151,
+            "barcode": [],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 1660671,
+            "master_url": "https://api.discogs.com/masters/1660671",
+            "uri": "/release/1798151-Ariel-Pinks-Haunted-Graffiti-Ariel-Friedman",
+            "catno": "none",
+            "title": "Ariel Pink's Haunted Graffiti - Ariel (Friedman)",
+            "thumb": "https://i.discogs.com/C-UtwoeIpYdzcpoasyaQ9769-3FxXr2YLqDLkk9rP7Q/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3OTgx/NTEtMTI0NDAyODAx/OC5qcGVn.jpeg",
+            "cover_image": "https://i.discogs.com/UwjLaSMc7YIGmGAp5YUi2SrvqgNng5VCL9gdFYqz98w/rs:fit/g:sm/q:90/h:280/w:280/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3OTgx/NTEtMTI0NDAyODAx/OC5qcGVn.jpeg",
+            "resource_url": "https://api.discogs.com/releases/1798151",
+            "community": {
+                "want": 18,
+                "have": 16
+            },
+            "format_quantity": 0,
+            "formats": [
+                {
+                    "name": "File",
+                    "qty": "5",
+                    "descriptions": [
+                        "MP3",
+                        "EP"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "Italy",
+            "year": "1998",
+            "format": [
+                "Vinyl",
+                "LP",
+                "Album"
+            ],
+            "label": [
+                "Mad Driver Records",
+                "Haunted House Music"
+            ],
+            "type": "release",
+            "genre": [
+                "Rock"
+            ],
+            "style": [
+                "Garage Rock",
+                "Punk"
+            ],
+            "id": 2879770,
+            "barcode": [
+                "MDR 08 A * 33 RPM",
+                "MDR 08 B * 33 RPM"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 0,
+            "master_url": null,
+            "uri": "/Spider-Babies-Crimes-Against-Humanity/release/2879770",
+            "catno": "MDR 08",
+            "title": "Spider Babies - Crimes Against Humanity",
+            "thumb": "https://i.discogs.com/BL5hiUCzNE8hTSC8dar_knqu_vgfOItpPmT0okK2_kk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4Nzk3/NzAtMTMwNTM4ODI3/OS5qcGVn.jpeg",
+            "cover_image": "https://i.discogs.com/5kRTqF9H2XIbe-NfZNp1AnJCb8Q12RB_QKZ9vIRjvuk/rs:fit/g:sm/q:90/h:366/w:366/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4Nzk3/NzAtMTMwNTM4ODI3/OS5qcGVn.jpeg",
+            "resource_url": "https://api.discogs.com/releases/2879770",
+            "community": {
+                "want": 26,
+                "have": 103
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "Vinyl",
+                    "qty": "1",
+                    "descriptions": [
+                        "LP",
+                        "Album"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "US",
+            "year": "2021",
+            "format": [
+                "CD",
+                "Album",
+                "Stereo"
+            ],
+            "label": [
+                "Sputnik Sound",
+                "Sputnik Sound",
+                "Treelady Studios",
+                "Not On Label",
+                "Disc Makers"
+            ],
+            "type": "master",
+            "genre": [
+                "Folk, World, & Country"
+            ],
+            "style": [],
+            "id": 2650496,
+            "barcode": [
+                "195269126773",
+                "IFPI LZ74",
+                "MFJ0055"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 2650496,
+            "master_url": "https://api.discogs.com/masters/2650496",
+            "uri": "/master/2650496-Haunted-Like-Human-Tall-Tales-Fables",
+            "catno": "",
+            "title": "Haunted Like Human - Tall Tales & Fables",
+            "thumb": "https://i.discogs.com/oKDJxGv-O2GU0N40wQ59x3J3n-wBKzULoOb2r9_0DU4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxMTU3/MTY1LTE2NDE4NTA5/NTEtNTM5NC5wbmc.jpeg",
+            "cover_image": "https://i.discogs.com/k883Bt6yBMlxwmZjTB_WBSu-2il9zpv3YAwLR7j9apg/rs:fit/g:sm/q:90/h:546/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxMTU3/MTY1LTE2NDE4NTA5/NTEtNTM5NC5wbmc.jpeg",
+            "resource_url": "https://api.discogs.com/masters/2650496",
+            "community": {
+                "want": 0,
+                "have": 2
+            }
+        },
+        {
+            "country": "US",
+            "year": "2006",
+            "format": [
+                "Cassette",
+                "EP",
+                "Unofficial Release"
+            ],
+            "label": [
+                "Human Ear Music"
+            ],
+            "type": "release",
+            "genre": [
+                "Rock"
+            ],
+            "style": [
+                "Lo-Fi",
+                "Experimental"
+            ],
+            "id": 14586475,
+            "barcode": [],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 1660671,
+            "master_url": "https://api.discogs.com/masters/1660671",
+            "uri": "/Ariel-Pinks-Haunted-Graffiti-Ariel-Friedman-EP/release/14586475",
+            "catno": "none",
+            "title": "Ariel Pink's Haunted Graffiti - Ariel (Friedman) EP",
+            "thumb": "https://i.discogs.com/jOxT0RTFEQX25xXzaW85dWt-2c1DZQOhiDrpXVEWxcY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0NTg2/NDc1LTE1Nzc2NTAx/MzYtMjg3NC5qcGVn.jpeg",
+            "cover_image": "https://i.discogs.com/T95SkOgip7Oj6-jcnHVglo49vmhKz158rIYBT_z9198/rs:fit/g:sm/q:90/h:846/w:553/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0NTg2/NDc1LTE1Nzc2NTAx/MzYtMjg3NC5qcGVn.jpeg",
+            "resource_url": "https://api.discogs.com/releases/14586475",
+            "community": {
+                "want": 14,
+                "have": 3
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "Cassette",
+                    "qty": "1",
+                    "descriptions": [
+                        "EP",
+                        "Unofficial Release"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "Thailand",
+            "year": "2011",
+            "format": [
+                "CD",
+                "Album"
+            ],
+            "label": [
+                "Brute! Productions",
+                "Brute! Productions"
+            ],
+            "type": "release",
+            "genre": [
+                "Rock"
+            ],
+            "style": [
+                "Death Metal"
+            ],
+            "id": 3422991,
+            "barcode": [
+                "IFPI 0019",
+                "[compact disc logo] Wizard House/CD123"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 0,
+            "master_url": null,
+            "uri": "/FleshTorture-The-Stench-Of-Humanity/release/3422991",
+            "catno": "BRU23",
+            "title": "FleshTorture* - The Stench Of Humanity",
+            "thumb": "https://i.discogs.com/7PRnjD22NfjmPu1gWz5GAzdtfYLNwYrZwVX3TUKRP8U/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0MjI5/OTEtMTMyOTgyMDg3/MS5qcGVn.jpeg",
+            "cover_image": "https://i.discogs.com/vH2w36cqd2uCGnFROzeOlMsFMM4G-RP42xfXkxEdlKk/rs:fit/g:sm/q:90/h:615/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0MjI5/OTEtMTMyOTgyMDg3/MS5qcGVn.jpeg",
+            "resource_url": "https://api.discogs.com/releases/3422991",
+            "community": {
+                "want": 7,
+                "have": 36
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "CD",
+                    "qty": "1",
+                    "descriptions": [
+                        "Album"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "US",
+            "year": "2010",
+            "format": [
+                "CD"
+            ],
+            "label": [
+                "Haunted Hotel Records",
+                "Studio Overlook",
+                "Trench Studios",
+                "Studio Overlook",
+                "Visceral Sound",
+                "Visceral Sound",
+                "www.dgrinc.com",
+                "Digital Flex Media"
+            ],
+            "type": "release",
+            "genre": [
+                "Rock"
+            ],
+            "style": [
+                "Grindcore"
+            ],
+            "id": 3761222,
+            "barcode": [
+                "827166183428",
+                "CA / www.dgrinc.com - 1384 Gadget/Phobia - 40914 IFPI WA76 ... DFM",
+                "IFPI WA76"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 457944,
+            "master_url": "https://api.discogs.com/masters/457944",
+            "uri": "/Gadget-6-Phobia-Gadget-Phobia/release/3761222",
+            "catno": "HHR45",
+            "title": "Gadget (6) / Phobia (6) - Gadget / Phobia",
+            "thumb": "https://i.discogs.com/Z0FmjLNLu3gaXzfpLxfF18vtBHZLkdIQVk5V5C4I5bo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NjEy/MjItMTM0MzMyMjc5/OS02NzkxLmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/0cw_Enw8uIINBfGkqK5nB8jgzXJRnoGu1MkbmlSDPz0/rs:fit/g:sm/q:90/h:616/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NjEy/MjItMTM0MzMyMjc5/OS02NzkxLmpwZWc.jpeg",
+            "resource_url": "https://api.discogs.com/releases/3761222",
+            "community": {
+                "want": 53,
+                "have": 106
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "CD",
+                    "qty": "1"
+                }
+            ]
+        },
+        {
+            "country": "US",
+            "year": "2018",
+            "format": [
+                "CDr",
+                "EP",
+                "Stereo"
+            ],
+            "label": [
+                "Not On Label",
+                "Treelady Studios",
+                "Left Plus Right Studios",
+                "Columbia Studio A"
+            ],
+            "type": "release",
+            "genre": [
+                "Folk, World, & Country"
+            ],
+            "style": [],
+            "id": 21686611,
+            "barcode": [
+                "732068301699"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 0,
+            "master_url": null,
+            "uri": "/release/21686611-Haunted-Like-Human-Folklore",
+            "catno": "none",
+            "title": "Haunted Like Human - Folklore",
+            "thumb": "https://i.discogs.com/KuJXlq5YcY6KYe7FkJkEK8ASGIPccZSjW7cZiwD3N5Q/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxNjg2/NjExLTE2NDE4NTE2/ODMtNzk3My5wbmc.jpeg",
+            "cover_image": "https://i.discogs.com/xw451gRovJa4XD7lKlR3qsTTH5ifxoOye0Jv5wrZ748/rs:fit/g:sm/q:90/h:544/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxNjg2/NjExLTE2NDE4NTE2/ODMtNzk3My5wbmc.jpeg",
+            "resource_url": "https://api.discogs.com/releases/21686611",
+            "community": {
+                "want": 0,
+                "have": 1
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "CDr",
+                    "qty": "1",
+                    "descriptions": [
+                        "EP",
+                        "Stereo"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "US",
+            "year": "2017",
+            "format": [
+                "CD",
+                "Album",
+                "Stereo"
+            ],
+            "label": [
+                "Not On Label",
+                "Disc Makers"
+            ],
+            "type": "release",
+            "genre": [
+                "Folk, World, & Country"
+            ],
+            "style": [],
+            "id": 21688297,
+            "barcode": [
+                "191924263852",
+                "IFPI LZ71",
+                "MBI1602"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 0,
+            "master_url": null,
+            "uri": "/release/21688297-Haunted-Like-Human-Ghost-Stories",
+            "catno": "none",
+            "title": "Haunted Like Human - Ghost Stories",
+            "thumb": "https://i.discogs.com/sO9OICTSvhjy8YfnbnVRkH8XbWwXtBsk8QYEHuVmEXc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxNjg4/Mjk3LTE2NDE4NjIz/NDQtNDQwMS5wbmc.jpeg",
+            "cover_image": "https://i.discogs.com/SKc6Po7Z1KioT9BDTnhT2Fbjybxf0SLK0d2bDDeX2nc/rs:fit/g:sm/q:90/h:537/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxNjg4/Mjk3LTE2NDE4NjIz/NDQtNDQwMS5wbmc.jpeg",
+            "resource_url": "https://api.discogs.com/releases/21688297",
+            "community": {
+                "want": 0,
+                "have": 1
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "CD",
+                    "qty": "1",
+                    "descriptions": [
+                        "Album",
+                        "Stereo"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "US",
+            "year": "2019",
+            "format": [
+                "Vinyl",
+                "7\"",
+                "45 RPM",
+                "Single",
+                "Etched",
+                "Numbered",
+                "Mono"
+            ],
+            "label": [
+                "Not On Label",
+                "Leesta Vall Sound Recordings",
+                "Leesta Vall Sound Recordings"
+            ],
+            "type": "release",
+            "genre": [
+                "Folk, World, & Country"
+            ],
+            "style": [],
+            "id": 21688804,
+            "barcode": [
+                "Session 822"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 0,
+            "master_url": null,
+            "uri": "/release/21688804-Haunted-Like-Human-Come-a-Little-Closer-Take-2",
+            "catno": "none",
+            "title": "Haunted Like Human - Come a Little Closer (Take 2)",
+            "thumb": "https://i.discogs.com/vbEcEiEs9IPEZjuk-h1ciyJgSlLGZWjXek9EsW3n_8Y/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxNjg4/ODA0LTE2NDE4NjY2/NzgtOTkxNS5wbmc.jpeg",
+            "cover_image": "https://i.discogs.com/zRE35VBJi0avf9hr8SZqTMicpTRr9mZwAJe4PD2oTRk/rs:fit/g:sm/q:90/h:603/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxNjg4/ODA0LTE2NDE4NjY2/NzgtOTkxNS5wbmc.jpeg",
+            "resource_url": "https://api.discogs.com/releases/21688804",
+            "community": {
+                "want": 0,
+                "have": 1
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "Vinyl",
+                    "qty": "1",
+                    "descriptions": [
+                        "7\"",
+                        "45 RPM",
+                        "Single",
+                        "Etched",
+                        "Numbered",
+                        "Mono"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "US",
+            "year": "2019",
+            "format": [
+                "Vinyl",
+                "7\"",
+                "45 RPM",
+                "Single Sided",
+                "Single",
+                "Etched",
+                "Numbered",
+                "Mono"
+            ],
+            "label": [
+                "Not On Label",
+                "Leesta Vall Sound Recordings",
+                "Leesta Vall Sound Recordings"
+            ],
+            "type": "release",
+            "genre": [
+                "Folk, World, & Country"
+            ],
+            "style": [],
+            "id": 21688852,
+            "barcode": [
+                "Session 882"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 0,
+            "master_url": null,
+            "uri": "/release/21688852-Haunted-Like-Human-In-The-Woods-Take-2",
+            "catno": "none",
+            "title": "Haunted Like Human - In The Woods (Take 2)",
+            "thumb": "https://i.discogs.com/9pxS0Juo3y7GvvlL4kJNnmHoGLzoM88Wv4wbc9ytg2o/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxNjg4/ODUyLTE2NDE4Njcy/NTctMjM5NS5wbmc.jpeg",
+            "cover_image": "https://i.discogs.com/03YwVlsGLgVs2_C3mBPpYL6EPprPahPhOCk3MuTagfE/rs:fit/g:sm/q:90/h:606/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxNjg4/ODUyLTE2NDE4Njcy/NTctMjM5NS5wbmc.jpeg",
+            "resource_url": "https://api.discogs.com/releases/21688852",
+            "community": {
+                "want": 0,
+                "have": 1
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "Vinyl",
+                    "qty": "1",
+                    "descriptions": [
+                        "7\"",
+                        "45 RPM",
+                        "Single Sided",
+                        "Single",
+                        "Etched",
+                        "Numbered",
+                        "Mono"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "US",
+            "year": "2022",
+            "format": [
+                "Vinyl",
+                "LP",
+                "Stereo"
+            ],
+            "label": [
+                "Not On Label"
+            ],
+            "type": "release",
+            "genre": [
+                "Folk, World, & Country"
+            ],
+            "style": [],
+            "id": 23379110,
+            "barcode": [
+                "240478E1/A 10-94767 / HLH001 - A",
+                "240478E2/A 10-94767 / HLH001 - B"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 2650496,
+            "master_url": "https://api.discogs.com/masters/2650496",
+            "uri": "/release/23379110-Haunted-Like-Human-Tall-Tales-Fables",
+            "catno": "none",
+            "title": "Haunted Like Human - Tall Tales & Fables",
+            "thumb": "https://i.discogs.com/8kj3EDh_2tx8jsTFarp-tsBTFPvzF5xeCo1hA7J3IcE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzMzc5/MTEwLTE2NTM2OTk4/OTItMjk1Mi5qcGVn.jpeg",
+            "cover_image": "https://i.discogs.com/Y22JKqMeSLBODFFKN2MT_EGC_WVKL3VvTAdbA2Np350/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzMzc5/MTEwLTE2NTM2OTk4/OTItMjk1Mi5qcGVn.jpeg",
+            "resource_url": "https://api.discogs.com/releases/23379110",
+            "community": {
+                "want": 0,
+                "have": 1
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "Vinyl",
+                    "qty": "1",
+                    "descriptions": [
+                        "LP",
+                        "Stereo"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "US",
+            "year": "2021",
+            "format": [
+                "CD",
+                "Album",
+                "Stereo"
+            ],
+            "label": [
+                "Sputnik Sound",
+                "Sputnik Sound",
+                "Treelady Studios",
+                "Not On Label",
+                "Disc Makers"
+            ],
+            "type": "release",
+            "genre": [
+                "Folk, World, & Country"
+            ],
+            "style": [],
+            "id": 21157165,
+            "barcode": [
+                "195269126773",
+                "IFPI LZ74",
+                "MFJ0055"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 2650496,
+            "master_url": "https://api.discogs.com/masters/2650496",
+            "uri": "/release/21157165-Haunted-Like-Human-Tall-Tales-Fables",
+            "catno": "",
+            "title": "Haunted Like Human - Tall Tales & Fables",
+            "thumb": "https://i.discogs.com/oKDJxGv-O2GU0N40wQ59x3J3n-wBKzULoOb2r9_0DU4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxMTU3/MTY1LTE2NDE4NTA5/NTEtNTM5NC5wbmc.jpeg",
+            "cover_image": "https://i.discogs.com/k883Bt6yBMlxwmZjTB_WBSu-2il9zpv3YAwLR7j9apg/rs:fit/g:sm/q:90/h:546/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxMTU3/MTY1LTE2NDE4NTA5/NTEtNTM5NC5wbmc.jpeg",
+            "resource_url": "https://api.discogs.com/releases/21157165",
+            "community": {
+                "want": 0,
+                "have": 1
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "CD",
+                    "qty": "1",
+                    "descriptions": [
+                        "Album",
+                        "Stereo"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "US",
+            "year": "2002",
+            "format": [
+                "CD",
+                "Album"
+            ],
+            "label": [
+                "Lakeshore Records",
+                "Lakeshore Records LLC.",
+                "Lakeshore Records LLC.",
+                "Mazinga Music",
+                "Milsy Music",
+                "Bordulac Music",
+                "Sony/ATV Sounds LLC",
+                "Thousand Lakes Music",
+                "WEA Mfg. Olyphant",
+                "WEA Mfg. Olyphant",
+                "WEA Mfg. Olyphant",
+                "Option-g"
+            ],
+            "type": "master",
+            "genre": [
+                "Electronic",
+                "Rock",
+                "Stage & Screen"
+            ],
+            "style": [
+                "Alternative Rock",
+                "Soundtrack",
+                "Space Rock",
+                "Downtempo",
+                "Score"
+            ],
+            "id": 316460,
+            "barcode": [
+                "7 80163-36942 7",
+                "['WEA mfg. OLYPHANT' logo] Z05600 4 LAK2 33694-2.1 01",
+                "['WEA mfg. OLYPHANT' logo] Z5590 4 LAK2 33694-2.2 01",
+                "M1S1",
+                "IFPI 2U3Q",
+                "IFPI 2U4C",
+                "BMI",
+                "SESAC"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 316460,
+            "master_url": "https://api.discogs.com/masters/316460",
+            "uri": "/master/316460-Various-And-Tomandandy-The-Mothman-Prophecies-Music-From-The-Motion-Picture",
+            "catno": "LAK 33694-2",
+            "title": "Various And Tomandandy - The Mothman Prophecies - Music From The Motion Picture",
+            "thumb": "https://i.discogs.com/_WqVV4lTOQJUROTu8Q2k5jev7NyHzewaYh7unu-4Cig/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NTk1/Ni0xMjc0NTUyNDQw/LmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/SoGToQ__s6qyuyjjzpWXPP32fXjnGMc6y4HSp1_13eA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NTk1/Ni0xMjc0NTUyNDQw/LmpwZWc.jpeg",
+            "resource_url": "https://api.discogs.com/masters/316460",
+            "community": {
+                "want": 45,
+                "have": 162
+            }
+        },
+        {
+            "country": "Netherlands",
+            "year": "2001",
+            "format": [
+                "CD",
+                "Compilation"
+            ],
+            "label": [
+                "Megarave Records",
+                "Sony DADC"
+            ],
+            "type": "release",
+            "genre": [
+                "Electronic"
+            ],
+            "style": [
+                "Hardcore",
+                "Gabber"
+            ],
+            "id": 260751,
+            "barcode": [
+                "Buma Stemra",
+                "IFPI 94K3",
+                "IFPI 94V1",
+                "IFPI L554",
+                "Sony DADC IFPI L554 A0100345676-0101 14 A2",
+                "Sony DADC IFPI L554 A0100345676-0101 14 A1"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 0,
+            "master_url": null,
+            "uri": "/release/260751-Various-Hardcore-2001-Hardcore-Of-The-Future",
+            "catno": "MR 20",
+            "title": "Various - Hardcore 2001 - Hardcore Of The Future",
+            "thumb": "https://i.discogs.com/qzsWQMi71Gfkq9siu54xqrg-qSVdIeW7TE6yYNaf99o/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2MDc1/MS0xMTcxOTg5MTE4/LmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/nCD8Py5bGWR8FZLwrEf68QZrM6hzRB6ZKFpk9n96IJk/rs:fit/g:sm/q:90/h:594/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2MDc1/MS0xMTcxOTg5MTE4/LmpwZWc.jpeg",
+            "resource_url": "https://api.discogs.com/releases/260751",
+            "community": {
+                "want": 23,
+                "have": 119
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "CD",
+                    "qty": "1",
+                    "descriptions": [
+                        "Compilation"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "Germany",
+            "year": "2000",
+            "format": [
+                "CDr",
+                "Compilation",
+                "Limited Edition"
+            ],
+            "label": [
+                "High Society International"
+            ],
+            "type": "release",
+            "genre": [
+                "Rock"
+            ],
+            "style": [
+                "Punk"
+            ],
+            "id": 4005499,
+            "barcode": [
+                "LC5459"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 0,
+            "master_url": null,
+            "uri": "/Dog-Food-Five-Tune-Out-Turn-Off-Drop-Dead/release/4005499",
+            "catno": "HSI 22",
+            "title": "Dog Food Five - Tune Out, Turn Off, Drop Dead",
+            "thumb": "https://i.discogs.com/LxUfqi_dGKEYivG5Y0xeu1w5l_PdUk3O5JwMPKSx7Jk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQwMDU0/OTktMTM1MjA1MzIx/My02ODA0LmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/3F51FChUgo_eIkY4oBHirPm3HQRegfKqwko2PfgxLl0/rs:fit/g:sm/q:90/h:223/w:159/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQwMDU0/OTktMTM1MjA1MzIx/My02ODA0LmpwZWc.jpeg",
+            "resource_url": "https://api.discogs.com/releases/4005499",
+            "community": {
+                "want": 2,
+                "have": 9
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "CDr",
+                    "qty": "1",
+                    "descriptions": [
+                        "Compilation",
+                        "Limited Edition"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "US",
+            "year": "2002",
+            "format": [
+                "CD",
+                "Album"
+            ],
+            "label": [
+                "Lakeshore Records",
+                "Lakeshore Records LLC.",
+                "Lakeshore Records LLC.",
+                "Mazinga Music",
+                "Milsy Music",
+                "Bordulac Music",
+                "Sony/ATV Sounds LLC",
+                "Thousand Lakes Music",
+                "WEA Mfg. Olyphant",
+                "WEA Mfg. Olyphant",
+                "WEA Mfg. Olyphant",
+                "Option-g"
+            ],
+            "type": "release",
+            "genre": [
+                "Electronic",
+                "Rock",
+                "Stage & Screen"
+            ],
+            "style": [
+                "Alternative Rock",
+                "Soundtrack",
+                "Space Rock",
+                "Downtempo",
+                "Score"
+            ],
+            "id": 745956,
+            "barcode": [
+                "7 80163-36942 7",
+                "['WEA mfg. OLYPHANT' logo] Z05600 4 LAK2 33694-2.1 01",
+                "['WEA mfg. OLYPHANT' logo] Z5590 4 LAK2 33694-2.2 01",
+                "M1S1",
+                "IFPI 2U3Q",
+                "IFPI 2U4C",
+                "BMI",
+                "SESAC"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 316460,
+            "master_url": "https://api.discogs.com/masters/316460",
+            "uri": "/Various-And-Tomandandy-The-Mothman-Prophecies-Music-From-The-Motion-Picture/release/745956",
+            "catno": "LAK 33694-2",
+            "title": "Various And Tomandandy - The Mothman Prophecies - Music From The Motion Picture",
+            "thumb": "https://i.discogs.com/_WqVV4lTOQJUROTu8Q2k5jev7NyHzewaYh7unu-4Cig/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NTk1/Ni0xMjc0NTUyNDQw/LmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/SoGToQ__s6qyuyjjzpWXPP32fXjnGMc6y4HSp1_13eA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NTk1/Ni0xMjc0NTUyNDQw/LmpwZWc.jpeg",
+            "resource_url": "https://api.discogs.com/releases/745956",
+            "community": {
+                "want": 24,
+                "have": 106
+            },
+            "format_quantity": 2,
+            "formats": [
+                {
+                    "name": "CD",
+                    "qty": "2",
+                    "descriptions": [
+                        "Album"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "Germany",
+            "year": "2002",
+            "format": [
+                "CD",
+                "Album"
+            ],
+            "label": [
+                "Lakeshore Entertainment",
+                "Lakeshore Records",
+                "Atomcandy",
+                "Colosseum",
+                "Colosseum Schallplatten GmbH",
+                "Lakeshore Records LLC.",
+                "Lakeshore Records LLC.",
+                "Lakeshore Records LLC.",
+                "Lakeshore Entertainment Corp.",
+                "Bordulac Music",
+                "Thousand Lakes Music",
+                "P+O Pallas",
+                "P+O Pallas"
+            ],
+            "type": "release",
+            "genre": [
+                "Electronic",
+                "Rock",
+                "Stage & Screen"
+            ],
+            "style": [
+                "Alternative Rock",
+                "Soundtrack",
+                "Space Rock",
+                "Downtempo",
+                "Score"
+            ],
+            "id": 2421386,
+            "barcode": [
+                "4005939808723",
+                "LC 03387",
+                "CST 8087.2-1 P+O-55638-A1 03-02",
+                "CST 8087.2-2 P+O-55670-A2 03-02",
+                "GEMA"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 316460,
+            "master_url": "https://api.discogs.com/masters/316460",
+            "uri": "/release/2421386-tomandandy-The-Mothman-Prophecies-Music-From-The-Motion-Picture",
+            "catno": "CST 8087-2.2",
+            "title": "tomandandy - The Mothman Prophecies (Music From The Motion Picture)",
+            "thumb": "https://i.discogs.com/sEQQJIASpex0PmDycb-ymG7QY3TkknRJhUvlML4RkyU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0MjEz/ODYtMTY1MzA1MzQ4/MC0xNDA5LmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/Tt1s8OJX7hLVzA8jZd_ee91IQhSB5gYAnrsjLwxPj1I/rs:fit/g:sm/q:90/h:298/w:303/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0MjEz/ODYtMTY1MzA1MzQ4/MC0xNDA5LmpwZWc.jpeg",
+            "resource_url": "https://api.discogs.com/releases/2421386",
+            "community": {
+                "want": 21,
+                "have": 56
+            },
+            "format_quantity": 2,
+            "formats": [
+                {
+                    "name": "CD",
+                    "qty": "2",
+                    "descriptions": [
+                        "Album"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "US",
+            "year": "1998",
+            "format": [
+                "CD",
+                "Compilation",
+                "Box Set"
+            ],
+            "label": [
+                "Cleopatra",
+                "Middle Earth Recordings",
+                "Jungle Records",
+                "Middle Earth Recordings",
+                "Jungle Records",
+                "Spot On",
+                "EFA",
+                "WMD",
+                "SNA"
+            ],
+            "type": "release",
+            "genre": [
+                "Electronic"
+            ],
+            "style": [
+                "Dub",
+                "Downtempo"
+            ],
+            "id": 888086,
+            "barcode": [
+                "7 41157 03902 3",
+                "5 013145 700426",
+                "5 013145 700723",
+                "SNA MIDDLE 4 CD1",
+                "SNA MIDDLE 4 CD2",
+                "S MIDDLE 7 CD-1 01",
+                "S MIDDLE 7 CD - 2 01",
+                "IFPI 1A06",
+                "IFPI L502",
+                "LC 9308",
+                "EFA: 75255-2",
+                "WMD No. 852 107",
+                "D: EFA 75267-2",
+                "F. 3016182 ARC 337"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 0,
+            "master_url": null,
+            "uri": "/Various-Complete-Dubnology/release/888086",
+            "catno": "CLP 0390-2",
+            "title": "Various - Complete Dubnology",
+            "thumb": "https://i.discogs.com/j7Vd9IgBwdVF76nCVHA0goVEy3h20fLI4utHfjxKUsY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg4ODA4/Ni0xMjkzOTY1NDI3/LmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/jsZx9zkvqq8bk8yKDAJ5O2EdKqN-4iptBuikStdE91A/rs:fit/g:sm/q:90/h:545/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg4ODA4/Ni0xMjkzOTY1NDI3/LmpwZWc.jpeg",
+            "resource_url": "https://api.discogs.com/releases/888086",
+            "community": {
+                "want": 80,
+                "have": 62
+            },
+            "format_quantity": 4,
+            "formats": [
+                {
+                    "name": "CD",
+                    "qty": "4",
+                    "descriptions": [
+                        "Compilation"
+                    ]
+                },
+                {
+                    "name": "Box Set",
+                    "qty": "1"
+                }
+            ]
+        },
+        {
+            "country": "Russia",
+            "year": "2017",
+            "format": [
+                "CD",
+                "Compilation",
+                "Unofficial Release"
+            ],
+            "label": [
+                "Ear Music",
+                "Ear Music",
+                "Star Mark"
+            ],
+            "type": "release",
+            "genre": [
+                "Rock"
+            ],
+            "style": [
+                "Hard Rock",
+                "Classic Rock"
+            ],
+            "id": 10448417,
+            "barcode": [
+                "4 607147 921357 >",
+                "4607147921357"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 0,
+            "master_url": null,
+            "uri": "/Deep-Purple-Greatest-Hits-Part-Two/release/10448417",
+            "catno": "4607147921357",
+            "title": "Deep Purple - Greatest Hits Part Two",
+            "thumb": "https://i.discogs.com/FoH6d8h5pQ-PsXAtKhgmXhtNcIaJEN7x2YK0nd6AMsw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNDQ4/NDE3LTE0OTc2NDk1/NzQtNTEzMy5qcGVn.jpeg",
+            "cover_image": "https://i.discogs.com/2OyWzb2NynAwTHJyA6YFfNu4PJHW8JLIw1FNn6WWwAo/rs:fit/g:sm/q:90/h:539/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNDQ4/NDE3LTE0OTc2NDk1/NzQtNTEzMy5qcGVn.jpeg",
+            "resource_url": "https://api.discogs.com/releases/10448417",
+            "community": {
+                "want": 3,
+                "have": 5
+            },
+            "format_quantity": 2,
+            "formats": [
+                {
+                    "name": "CD",
+                    "qty": "2",
+                    "text": "Digipak",
+                    "descriptions": [
+                        "Compilation",
+                        "Unofficial Release"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "Netherlands",
+            "year": "2014",
+            "format": [
+                "CD",
+                "Album"
+            ],
+            "label": [
+                "Basta",
+                "Promese"
+            ],
+            "type": "release",
+            "genre": [
+                "Electronic",
+                "Jazz",
+                "Pop"
+            ],
+            "style": [
+                "Easy Listening",
+                "Space-Age"
+            ],
+            "id": 5508042,
+            "barcode": [
+                "8712530932127",
+                "LC 01460",
+                "380974 @1 3093212",
+                "IFPI LW03",
+                "IFPI AAHP5",
+                "STEMRA"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 0,
+            "master_url": null,
+            "uri": "/release/5508042-Raymond-ScottEvolution-Control-CommitteeBran-Flakes-Go-Home-Productions-Raymond-Scott-Rewired",
+            "catno": "30-9321-2",
+            "title": "Raymond Scott, The Evolution Control Committee, The Bran Flakes, Go Home Productions - Raymond Scott Rewired",
+            "thumb": "https://i.discogs.com/DgrQMECBnds38wT8AcjGA99tPPFvANPhFGJzP9B1mLg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU1MDgw/NDItMTM5NTI2NTM0/MS0zMTU3LmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/6L1jSfDkavLTXk9H7CeZM8W2SR3Yrfpv3uHAWtfypKM/rs:fit/g:sm/q:90/h:496/w:504/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU1MDgw/NDItMTM5NTI2NTM0/MS0zMTU3LmpwZWc.jpeg",
+            "resource_url": "https://api.discogs.com/releases/5508042",
+            "community": {
+                "want": 79,
+                "have": 37
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "CD",
+                    "qty": "1",
+                    "descriptions": [
+                        "Album"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "France",
+            "year": "1997",
+            "format": [
+                "CD",
+                "Compilation",
+                "Limited Edition"
+            ],
+            "label": [
+                "Kaon",
+                "Allied DT",
+                "Kaon",
+                "Hanblechaïa"
+            ],
+            "type": "release",
+            "genre": [
+                "Electronic",
+                "Non-Music"
+            ],
+            "style": [
+                "Field Recording",
+                "Noise",
+                "Experimental"
+            ],
+            "id": 372380,
+            "barcode": [
+                "2650-2-1 ALLIED DT *DEGEN-CD01*",
+                "IFPI L452",
+                "ifpi 7701",
+                "2650-2-1 ALLIED DT *REGEN-CD02*",
+                "ifpi 7702"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 0,
+            "master_url": null,
+            "uri": "/release/372380-Various-R%C3%A9g%C3%A9n%C3%A9ration-D%C3%A9g%C3%A9n%C3%A9rescence",
+            "catno": "1/97",
+            "title": "Various - Régénération - Dégénérescence",
+            "thumb": "https://i.discogs.com/JMmFzcvS-8Kzo5Ckk2k8qLSM3rHJdXNtddHJVD7o4ic/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MjM4/MC0xNjIyOTEwNzM1/LTM0NTkuanBlZw.jpeg",
+            "cover_image": "https://i.discogs.com/J-t3bSLL3nRgYiukswPrfQEUlpiBpQ4sGkfmimYZOzw/rs:fit/g:sm/q:90/h:576/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MjM4/MC0xNjIyOTEwNzM1/LTM0NTkuanBlZw.jpeg",
+            "resource_url": "https://api.discogs.com/releases/372380",
+            "community": {
+                "want": 72,
+                "have": 89
+            },
+            "format_quantity": 2,
+            "formats": [
+                {
+                    "name": "CD",
+                    "qty": "2",
+                    "descriptions": [
+                        "Compilation",
+                        "Limited Edition"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "US",
+            "year": "2000",
+            "format": [
+                "CD",
+                "Compilation"
+            ],
+            "label": [
+                "X DOT 25"
+            ],
+            "type": "release",
+            "genre": [
+                "Electronic",
+                "Jazz",
+                "Latin",
+                "Folk, World, & Country"
+            ],
+            "style": [
+                "Vocal",
+                "Ambient"
+            ],
+            "id": 969112,
+            "barcode": [
+                "7-59145-50042-4",
+                "759145500424"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 0,
+            "master_url": null,
+            "uri": "/Various-Portraits-In-Sound-A-Collection-Of-World-Music-Vol-1/release/969112",
+            "catno": "5004-2",
+            "title": "Various - Portraits In Sound: A Collection Of World Music, Vol. 1",
+            "thumb": "https://i.discogs.com/Lk_ECCLuCxwipnH__iO4IDY9T_OsSjrpwQ8l50I1Vb4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk2OTEx/Mi0xMTc4OTkxODM2/LmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/4Oh7I5gvbvpbmKVYLg086DqsyLhn0MbEC8SYpnAraKU/rs:fit/g:sm/q:90/h:469/w:478/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk2OTEx/Mi0xMTc4OTkxODM2/LmpwZWc.jpeg",
+            "resource_url": "https://api.discogs.com/releases/969112",
+            "community": {
+                "want": 1,
+                "have": 5
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "CD",
+                    "qty": "1",
+                    "descriptions": [
+                        "Compilation"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "US",
+            "year": "2015",
+            "format": [
+                "CDr",
+                "Album",
+                "Compilation"
+            ],
+            "label": [
+                "Sev'rd Nervez Music",
+                "Grindhouse Musick Inc"
+            ],
+            "type": "release",
+            "genre": [
+                "Hip Hop"
+            ],
+            "style": [
+                "Horrorcore"
+            ],
+            "id": 6937666,
+            "barcode": [],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 0,
+            "master_url": null,
+            "uri": "/Tha-Morbid-One-Tha-Origins-of/release/6937666",
+            "catno": "none",
+            "title": "Tha Morbid One - Tha Origins of...",
+            "thumb": "https://i.discogs.com/c1cfmNqAOxi0Q8VJktOakiP7iTi69HFPeg0zHQA108k/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY5Mzc2/NjYtMTQyOTk0MTg2/Mi0yMTY4LmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/f_Biss-qvi0wwMeTaKqQZH2SHM_iMKc_AMxucX9djxM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY5Mzc2/NjYtMTQyOTk0MTg2/Mi0yMTY4LmpwZWc.jpeg",
+            "resource_url": "https://api.discogs.com/releases/6937666",
+            "community": {
+                "want": 3,
+                "have": 0
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "CDr",
+                    "qty": "1",
+                    "descriptions": [
+                        "Album",
+                        "Compilation"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "UK",
+            "year": "1981",
+            "format": [
+                "Vinyl",
+                "LP",
+                "Album"
+            ],
+            "label": [
+                "Cocteau Records",
+                "Happytronics Ltd.",
+                "Happytronics Ltd.",
+                "Nelsongs",
+                "Gedmal Galvanic Ltd."
+            ],
+            "type": "release",
+            "genre": [
+                "Stage & Screen"
+            ],
+            "style": [
+                "Soundtrack",
+                "Abstract",
+                "Minimal"
+            ],
+            "id": 337367,
+            "barcode": [
+                "JC 2A₁ GG CHRIS SCHAEFER EX=FRENCH GIRL LEILA 2/3/82 - (arrow in heart) ALISON FRENCH ",
+                "JC 2B₁ GG",
+                "JC 2A₁  GG",
+                "JC 2B₁  GG"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 0,
+            "master_url": null,
+            "uri": "/Bill-Nelson-Das-Kabinett-The-Cabinet-Of-Doctor-Caligari/release/337367",
+            "catno": "JC 2",
+            "title": "Bill Nelson - Das Kabinett ('The Cabinet Of Doctor Caligari')",
+            "thumb": "https://i.discogs.com/2nzt3FEYZTJg33QWUHwXJqr4-J0qGUs5G0HJKiZH2Hg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzNzM2/Ny0xMjc0Nzk2ODg3/LmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/WR6BiJDUNfFePIlUhiffoxxNDvrYjvn1Vz932_mRoyg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzNzM2/Ny0xMjc0Nzk2ODg3/LmpwZWc.jpeg",
+            "resource_url": "https://api.discogs.com/releases/337367",
+            "community": {
+                "want": 144,
+                "have": 484
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "Vinyl",
+                    "qty": "1",
+                    "descriptions": [
+                        "LP",
+                        "Album"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "US",
+            "genre": [
+                "Rock"
+            ],
+            "format": [
+                "CD",
+                "Album",
+                "Compilation"
+            ],
+            "style": [
+                "Punk"
+            ],
+            "id": 12396427,
+            "label": [
+                "272 Records"
+            ],
+            "type": "release",
+            "barcode": [
+                "8 10270 01824 3"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 0,
+            "master_url": null,
+            "uri": "/Various-Punk-Kills-Volume-9/release/12396427",
+            "catno": "none",
+            "title": "Various - Punk Kills Volume 9",
+            "thumb": "https://i.discogs.com/dHkDeWIXGgqdo3jRIlMOWxHkcNdhbWQWp5Yr0U3CD0w/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMzk2/NDI3LTE1MzQ0MzE2/MDctMTQyNy5qcGVn.jpeg",
+            "cover_image": "https://i.discogs.com/0uwbZ21THLPmcSogp6qxZZV9FL4yLhBgNhSP51r3MVQ/rs:fit/g:sm/q:90/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMzk2/NDI3LTE1MzQ0MzE2/MDctMTQyNy5qcGVn.jpeg",
+            "resource_url": "https://api.discogs.com/releases/12396427",
+            "community": {
+                "want": 1,
+                "have": 3
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "CD",
+                    "qty": "1",
+                    "descriptions": [
+                        "Album",
+                        "Compilation"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "US",
+            "year": "2012",
+            "format": [
+                "CDr",
+                "Compilation",
+                "Promo"
+            ],
+            "label": [
+                "Butchered Beat Productionz",
+                "Studio CX"
+            ],
+            "type": "release",
+            "genre": [
+                "Hip Hop"
+            ],
+            "style": [
+                "Horrorcore"
+            ],
+            "id": 19026952,
+            "barcode": [],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 2158801,
+            "master_url": "https://api.discogs.com/masters/2158801",
+            "uri": "/Cryptik-X-Tha-Morb1d-Morbid-Movie-Massacre/release/19026952",
+            "catno": "none",
+            "title": "Cryptik X Tha Morb1d* - Morbid Movie Massacre",
+            "thumb": "",
+            "cover_image": "https://s.discogs.com/ba9dc00ea28dd509e0145bac1167931926479262/images/spacer.gif",
+            "resource_url": "https://api.discogs.com/releases/19026952",
+            "community": {
+                "want": 1,
+                "have": 2
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "CDr",
+                    "qty": "1",
+                    "descriptions": [
+                        "Compilation",
+                        "Promo"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "UK",
+            "year": "2020",
+            "format": [
+                "Vinyl",
+                "LP"
+            ],
+            "label": [
+                "do you have peace?"
+            ],
+            "type": "master",
+            "genre": [
+                "Electronic"
+            ],
+            "style": [
+                "Ambient",
+                "Dub"
+            ],
+            "id": 2588144,
+            "barcode": [],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 2588144,
+            "master_url": "https://api.discogs.com/masters/2588144",
+            "uri": "/master/2588144-Jabu-Sweet-Company",
+            "catno": "DYHP003",
+            "title": "Jabu (3) - Sweet Company",
+            "thumb": "https://i.discogs.com/WTRirsxaVVpEo6LFJaP7qwHj9SBsXfJLhfnnZhqDKHY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2MjU5/MjM5LTE2MDYxMzk2/MzctNDQyNy5qcGVn.jpeg",
+            "cover_image": "https://i.discogs.com/ynBlCZ2kDI-YB73CaTmziujBBLBJQxBjpMO2DXuPuMI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2MjU5/MjM5LTE2MDYxMzk2/MzctNDQyNy5qcGVn.jpeg",
+            "resource_url": "https://api.discogs.com/masters/2588144",
+            "community": {
+                "want": 84,
+                "have": 92
+            }
+        },
+        {
+            "country": "UK",
+            "year": "2020",
+            "format": [
+                "Vinyl",
+                "LP"
+            ],
+            "label": [
+                "do you have peace?"
+            ],
+            "type": "release",
+            "genre": [
+                "Electronic"
+            ],
+            "style": [
+                "Ambient",
+                "Dub"
+            ],
+            "id": 16259239,
+            "barcode": [],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 2588144,
+            "master_url": "https://api.discogs.com/masters/2588144",
+            "uri": "/release/16259239-Jabu-Sweet-Company",
+            "catno": "DYHP003",
+            "title": "Jabu (3) - Sweet Company",
+            "thumb": "https://i.discogs.com/WTRirsxaVVpEo6LFJaP7qwHj9SBsXfJLhfnnZhqDKHY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2MjU5/MjM5LTE2MDYxMzk2/MzctNDQyNy5qcGVn.jpeg",
+            "cover_image": "https://i.discogs.com/ynBlCZ2kDI-YB73CaTmziujBBLBJQxBjpMO2DXuPuMI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2MjU5/MjM5LTE2MDYxMzk2/MzctNDQyNy5qcGVn.jpeg",
+            "resource_url": "https://api.discogs.com/releases/16259239",
+            "community": {
+                "want": 83,
+                "have": 92
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "Vinyl",
+                    "qty": "1",
+                    "descriptions": [
+                        "LP"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "Poland",
+            "year": "2014",
+            "format": [
+                "File",
+                "MP3",
+                "Compilation"
+            ],
+            "label": [
+                "Not On Label"
+            ],
+            "type": "release",
+            "genre": [
+                "Electronic",
+                "Jazz",
+                "Non-Music"
+            ],
+            "style": [
+                "Glitch",
+                "Experimental",
+                "Ambient",
+                "Techno"
+            ],
+            "id": 6171894,
+            "barcode": [],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 0,
+            "master_url": null,
+            "uri": "/release/6171894-Various-PL2UA",
+            "catno": "none",
+            "title": "Various - PL2UA",
+            "thumb": "https://i.discogs.com/NKy-CMCA9rb_bK96UMc1b9ViNccohDJktONEq_NTjvo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYxNzE4/OTQtMTQxMjg2MzAx/MS00MTgwLmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/uM0a2773Q6QkHmmV9uWdILuwslji5JDTGZtYAkOMYr4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYxNzE4/OTQtMTQxMjg2MzAx/MS00MTgwLmpwZWc.jpeg",
+            "resource_url": "https://api.discogs.com/releases/6171894",
+            "community": {
+                "want": 4,
+                "have": 4
+            },
+            "format_quantity": 0,
+            "formats": [
+                {
+                    "name": "File",
+                    "qty": "93",
+                    "text": "320 kbps",
+                    "descriptions": [
+                        "MP3",
+                        "Compilation"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "US",
+            "year": "2022",
+            "format": [
+                "Vinyl",
+                "LP"
+            ],
+            "label": [
+                "Sovereign Sounds"
+            ],
+            "type": "release",
+            "genre": [
+                "Folk, World, & Country"
+            ],
+            "style": [],
+            "id": 22965128,
+            "barcode": [],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 0,
+            "master_url": null,
+            "uri": "/release/22965128-Lillian-Chasing-Shadows",
+            "catno": "Na",
+            "title": "Lillian - Chasing Shadows",
+            "thumb": "https://i.discogs.com/JF5wWeg4GQ0fHAXHS1HMd5qjWC1Olcc_jpxfxlTEs1Y/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyOTY1/MTI4LTE2NTA2MDM0/MDQtMjA5OC5qcGVn.jpeg",
+            "cover_image": "https://i.discogs.com/-ShItQ0BvcKW79f9DVbTp829awkaEJPzDOsGBczmxws/rs:fit/g:sm/q:90/h:582/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyOTY1/MTI4LTE2NTA2MDM0/MDQtMjA5OC5qcGVn.jpeg",
+            "resource_url": "https://api.discogs.com/releases/22965128",
+            "community": {
+                "want": 0,
+                "have": 1
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "Vinyl",
+                    "qty": "1",
+                    "descriptions": [
+                        "LP"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "Canada",
+            "year": "2004",
+            "format": [
+                "CD",
+                "CD",
+                "CD-ROM",
+                "All Media",
+                "Compilation"
+            ],
+            "label": [
+                "Century Media",
+                "Century Media Records",
+                "Copyright Control"
+            ],
+            "type": "release",
+            "genre": [
+                "Rock"
+            ],
+            "style": [
+                "Black Metal",
+                "Death Metal",
+                "Nu Metal"
+            ],
+            "id": 3395554,
+            "barcode": [
+                "7 27701 75042 2",
+                "727701750422"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 0,
+            "master_url": null,
+            "uri": "/Various-Metal-For-The-Masses-Canadian-Assault/release/3395554",
+            "catno": "CMR 7504-2",
+            "title": "Various - Metal For The Masses - Canadian Assault",
+            "thumb": "https://i.discogs.com/rFDUP_p_D0HQZMnOjeIn8hbbh68oTljryQpETYZK_zE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzOTU1/NTQtMTQxNzUyNTg2/Ny05NDA5LmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/o7rvyzP21FESbzVH5tVKX_w8t-wgP4qKYdTvh58jKGc/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzOTU1/NTQtMTQxNzUyNTg2/Ny05NDA5LmpwZWc.jpeg",
+            "resource_url": "https://api.discogs.com/releases/3395554",
+            "community": {
+                "want": 8,
+                "have": 40
+            },
+            "format_quantity": 2,
+            "formats": [
+                {
+                    "name": "CD",
+                    "qty": "1"
+                },
+                {
+                    "name": "CD",
+                    "qty": "1",
+                    "text": "MP3, 80 to 256 kbps",
+                    "descriptions": [
+                        "CD-ROM"
+                    ]
+                },
+                {
+                    "name": "All Media",
+                    "qty": "1",
+                    "descriptions": [
+                        "Compilation"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4694310,
+            "type": "artist",
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": null,
+            "master_url": null,
+            "uri": "/artist/4694310-Noumeno-2",
+            "title": "Noumeno (2)",
+            "thumb": "https://i.discogs.com/fCZBc2nrXzk-3e3dMi0DLWhztTrv8zTBXyrHNhB29a0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ2OTQz/MTAtMTQ1NTQ3MTM0/Mi02NTQzLmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/2PVoO1bRoTfZqTSoAXera_gjhsR-hqXe2_4no6IvPEs/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ2OTQz/MTAtMTQ1NTQ3MTM0/Mi02NTQzLmpwZWc.jpeg",
+            "resource_url": "https://api.discogs.com/artists/4694310"
+        },
+        {
+            "country": "US",
+            "year": "2012",
+            "format": [
+                "File",
+                "Compilation",
+                "MP3"
+            ],
+            "label": [
+                "Grindhouse Musick Inc."
+            ],
+            "type": "master",
+            "genre": [
+                "Hip Hop"
+            ],
+            "style": [
+                "Horrorcore"
+            ],
+            "id": 2158801,
+            "barcode": [],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 2158801,
+            "master_url": "https://api.discogs.com/masters/2158801",
+            "uri": "/Cryptik-X-Tha-Morb1d-Morbid-Movie-Massacre/master/2158801",
+            "catno": "GMI-0001",
+            "title": "Cryptik X Tha Morb1d* - Morbid Movie Massacre",
+            "thumb": "",
+            "cover_image": "https://s.discogs.com/ba9dc00ea28dd509e0145bac1167931926479262/images/spacer.gif",
+            "resource_url": "https://api.discogs.com/masters/2158801",
+            "community": {
+                "want": 1,
+                "have": 3
+            }
+        },
+        {
+            "id": 465762,
+            "type": "artist",
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": null,
+            "master_url": null,
+            "uri": "/artist/465762-Gerostenkorp",
+            "title": "Gerostenkorp",
+            "thumb": "https://i.discogs.com/NXtrSyz-7UCYJWPYFwpny9UVm0tyxANPXwBAVhsyBaY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ2NTc2/Mi0xNDg3MzI2ODc4/LTgyMDIuanBlZw.jpeg",
+            "cover_image": "https://i.discogs.com/clE7Z2XqBMnljaO6AwIiGbY6lcRpn37WIPb30e29_Mg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ2NTc2/Mi0xNDg3MzI2ODc4/LTgyMDIuanBlZw.jpeg",
+            "resource_url": "https://api.discogs.com/artists/465762"
+        },
+        {
+            "country": "Europe",
+            "year": "2017",
+            "format": [
+                "CD",
+                "Compilation"
+            ],
+            "label": [
+                "Cherry Red",
+                "Warner Music UK Ltd.",
+                "4AD",
+                "LTM Recordings",
+                "Adi Newton",
+                "Armcomm",
+                "Steve Abbot",
+                "Beggars Banquet Records Ltd.",
+                "Union Square Music Ltd.",
+                "Jungle Records",
+                "Flesh For Lulu",
+                "All About Eve",
+                "Spectacle Music Ltd.",
+                "Danielle Dax",
+                "Universal Music Group Ltd.",
+                "Years On Earth",
+                "Part 1",
+                "Sacred Bones Records",
+                "Michael Hand",
+                "13th Chime",
+                "Gary Levermore",
+                "John Whybrew",
+                "Sony Music Entertainment UK Limited",
+                "Edward Qaspel",
+                "Salvation",
+                "LTM Recordings",
+                "Wolf Records",
+                "AATT",
+                "Siiiii",
+                "Julia Orr",
+                "Mark Tinley",
+                "Richard Butler",
+                "Michelle Brigandage",
+                "Paul Knighton Aka Paul James Berry",
+                "Mark Freeth",
+                "Anorexic Dread",
+                "Blood And Roses",
+                "John Stanley",
+                "Keith Goldhanger",
+                "Warner Music UK Ltd.",
+                "Martin Bowes",
+                "Harry Maxwell Stafford",
+                "Zillah Minx",
+                "Beggars Group Media Ltd.",
+                "Cherry Red Records Ltd.",
+                "Cherry Red Records Ltd.",
+                "www.keyproduction.co.uk",
+                "Warner Music UK Ltd.",
+                "Beggars Banquet Records Ltd.",
+                "4AD Ltd.",
+                "Rot Records",
+                "Factory Records",
+                "Merciful Release",
+                "Dvation",
+                "Plastic Records",
+                "Anagram",
+                "The Estate Of The Late Billy MacKenzie",
+                "Alan Rankine",
+                "Michael Dempsey",
+                "Jungle Records",
+                "Red Rhino",
+                "Statik Records",
+                "Rebirth Records",
+                "Eden",
+                "Ganges Records",
+                "Virgin Records Ltd.",
+                "The Initial Recording Company",
+                "Fiction Records Ltd.",
+                "Midnight Music",
+                "Years On Earth",
+                "Sweatbox Records",
+                "Paraworm Records",
+                "Ellie Jay Records",
+                "Anagram Records",
+                "No Future Records",
+                "Third Mind Records",
+                "In Phaze Records",
+                "Sony Music Entertainment UK Limited",
+                "Red Flame",
+                "Timeslip",
+                "Glass Records",
+                "Nightshift Records",
+                "Reflex Records",
+                "King Sol Records",
+                "Tabathas Nightmare",
+                "Gung Ho",
+                "Lil Records",
+                "Mercury Records Ltd.",
+                "Flicknife Records",
+                "Criminal Damage Records",
+                "Tower Release",
+                "Audiodrome Records",
+                "One Web Records",
+                "I'm Dead",
+                "Flicknife",
+                "Warner Records Ltd.",
+                "Attrition",
+                "Last Movement",
+                "Ace Records Ltd.",
+                "Black Lagoon Records",
+                "Dindisc",
+                "Cherry Red Records Ltd.",
+                "Zomba Music Publishers Ltd.",
+                "Dying Art Ltd.",
+                "Universal/Momentum Music 3 Ltd.",
+                "LTM Songs",
+                "Complete Music Ltd.",
+                "Eldritch Boulevard Ltd.",
+                "Universal Music Publishing Ltd.",
+                "Mute Publishing Ltd.",
+                "Cherry Red Songs",
+                "Cherry Red Songs",
+                "Fiction Songs Ltd.",
+                "Copyright Control",
+                "Scamp Music Ltd",
+                "Flesh For Lulu",
+                "Tritec Songs Ltd.",
+                "Spectacle Music Ltd.",
+                "Warner Chappell Music Ltd.",
+                "Rotten Music Ltd.",
+                "BMG VM Music Ltd.",
+                "Warner Chappell Music",
+                "Midnight Music",
+                "Universal/Momentum Music 3 Ltd.",
+                "Bravour Ltd.",
+                "Bucks Music Group Ltd.",
+                "Nightlimbo Ltd",
+                "BMG 10 Music Ltd.",
+                "BMG Music Publishing Ltd.",
+                "Colgems-EMI Music Inc.",
+                "Illegal Music Ltd.",
+                "Wolf Publishing",
+                "Chappell Music",
+                "King Sol Records",
+                "Eaton Music Ltd.",
+                "Twist And Shout",
+                "RCA Music Ltd.",
+                "Coeur de Lion International",
+                "Jungle Music",
+                "Bucks Music Group Ltd.",
+                "Stano",
+                "Chrysalis Music Ltd.",
+                "Metropolis Ltd.",
+                "Warner Bros. Music Ltd.",
+                "Midnight Music Ltd.",
+                "Rock Music Co. Ltd.",
+                "Sunbury Music",
+                "Dinsong Ltd.",
+                "Red Flame Music Ltd.",
+                "Sonet Publishing",
+                "Wipe Out Music Ltd.",
+                "Vibrasound",
+                "Fluid Mastering",
+                "Fluid Mastering",
+                "TAKT",
+                "TAKT",
+                "TAKT",
+                "TAKT",
+                "TAKT",
+                "Ubiquitous Records"
+            ],
+            "genre": [
+                "Rock"
+            ],
+            "style": [
+                "New Wave",
+                "Post-Punk",
+                "Alternative Rock",
+                "Indie Rock",
+                "Goth Rock"
+            ],
+            "id": 10548528,
+            "barcode": [
+                "5 013929 103405",
+                "5013929103405",
+                "MCPS",
+                "BIEM",
+                "2100006838732 www.keyproduction.co.uk",
+                "IFPI LK97",
+                "IFPI 9R88",
+                "2100006838763 www.keyproduction.co.uk",
+                "IFPI LK97",
+                "IFPI 9R95",
+                "2100006838794 www.keyproduction.co.uk",
+                "IFPI LK97",
+                "IFPI UU076",
+                "2100006838824 www.keyproduction.co.uk",
+                "IFPI LK97",
+                "IFPI 9R88",
+                "2100006838855 www.keyproduction.co.uk",
+                "IFPI LK97",
+                "IFPI UU015",
+                "2100006838732 www.keyproduction.co.uk",
+                "IFPI LK97",
+                "IFPI 9R78",
+                "2100006838763 www.keyproduction.co.uk",
+                "IFPI LK97",
+                "IFPI 9R78",
+                "2100006838794 www.keyproduction.co.uk",
+                "IFPI LK97",
+                "IFPI 9R78",
+                "2100006838824 www.keyproduction.co.uk",
+                "IFPI LK97",
+                "IFPI 9R78",
+                "2100006838855 www.keyproduction.co.uk",
+                "IFPI LK97",
+                "IFPI 9R78"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 0,
+            "master_url": null,
+            "uri": "/release/10548528-Various-Silhouettes-Statues-A-Gothic-Revolution-1978-1986",
+            "catno": "CRCDBOX34",
+            "title": "Various - Silhouettes & Statues (A Gothic Revolution 1978 - 1986)",
+            "thumb": "https://i.discogs.com/ZnT7riUBOEe6TczMTmk3NqdrwR0CeFpz5dk7h5nr4N4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNTQ4/NTI4LTE1MTU4Mjg3/NTgtOTE3My5qcGVn.jpeg",
+            "cover_image": "https://i.discogs.com/DAeqPD7A-vIbfmJxreXnwt6SRKrT4I_kozvnI9BsbPs/rs:fit/g:sm/q:90/h:841/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNTQ4/NTI4LTE1MTU4Mjg3/NTgtOTE3My5qcGVn.jpeg",
+            "resource_url": "https://api.discogs.com/releases/10548528",
+            "community": {
+                "want": 173,
+                "have": 302
+            },
+            "format_quantity": 5,
+            "formats": [
+                {
+                    "name": "CD",
+                    "qty": "5",
+                    "descriptions": [
+                        "Compilation"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "Spain",
+            "year": "2006",
+            "format": [
+                "CDr",
+                "Album",
+                "Stereo"
+            ],
+            "label": [
+                "Witches On The Radiowaves"
+            ],
+            "genre": [
+                "Electronic",
+                "Stage & Screen"
+            ],
+            "style": [
+                "Downtempo",
+                "Ambient",
+                "Dark Ambient",
+                "Soundtrack"
+            ],
+            "id": 1565243,
+            "barcode": [],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 0,
+            "master_url": null,
+            "uri": "/Psicodreamics-Theatre-Des-Vampires/release/1565243",
+            "catno": "WOTR006",
+            "title": "Psicodreamics - Theatre Des Vampires",
+            "thumb": "https://i.discogs.com/i0VXQUgHHA8xZCwb17n-oV5JDBXwr2eb_3l6KMUvHM0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NjUy/NDMtMTIyODgyMTQw/Mi5qcGVn.jpeg",
+            "cover_image": "https://i.discogs.com/0-EyAhDCiFtAqt5l27bzZmmAKAqhXx7mamYh9gXq3w8/rs:fit/g:sm/q:90/h:200/w:200/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NjUy/NDMtMTIyODgyMTQw/Mi5qcGVn.jpeg",
+            "resource_url": "https://api.discogs.com/releases/1565243",
+            "community": {
+                "want": 5,
+                "have": 5
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "CDr",
+                    "qty": "1",
+                    "descriptions": [
+                        "Album",
+                        "Stereo"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "Unknown",
+            "year": "2021",
+            "format": [
+                "File",
+                "ogg-vorbis"
+            ],
+            "label": [
+                "Not On Label (Skeleton Bones Ghoulie Self-released)"
+            ],
+            "type": "release",
+            "genre": [
+                "Electronic",
+                "Non-Music"
+            ],
+            "style": [
+                "Ambient",
+                "Drone",
+                "Dark Ambient",
+                "Field Recording",
+                "Noise"
+            ],
+            "id": 20882671,
+            "barcode": [],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 0,
+            "master_url": null,
+            "uri": "/release/20882671-Skeleton-Bones-Ghoulie-Queen-Spider-",
+            "catno": "none",
+            "title": "Skeleton Bones Ghoulie -  Queen Spider ",
+            "thumb": "https://i.discogs.com/4di_8PAO3UQ6qQhqbUfhcuw4RGaDrfSamQm1Jb5sKRo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwODgy/NjcxLTE2MzYyNjI3/ODItNTgxMy5qcGVn.jpeg",
+            "cover_image": "https://i.discogs.com/fvDPn5QlPhrNHtIncJT0yf4pzFKhwaMuPZmK5w2ewdI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwODgy/NjcxLTE2MzYyNjI3/ODItNTgxMy5qcGVn.jpeg",
+            "resource_url": "https://api.discogs.com/releases/20882671",
+            "community": {
+                "want": 0,
+                "have": 0
+            },
+            "format_quantity": 0,
+            "formats": [
+                {
+                    "name": "File",
+                    "qty": "7",
+                    "text": "1411 kbps",
+                    "descriptions": [
+                        "ogg-vorbis"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "UK",
+            "year": "2009",
+            "format": [
+                "CD"
+            ],
+            "label": [
+                "Not On Label",
+                "More Human Recordings",
+                "Zebra Three Studios"
+            ],
+            "genre": [
+                "Rock"
+            ],
+            "style": [
+                "Acoustic",
+                "Folk Rock"
+            ],
+            "id": 20245531,
+            "barcode": [
+                "CA DK003 @",
+                "IFPI L039 10/31/09 12:23:20 AM",
+                "IFPI 127E"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 0,
+            "master_url": null,
+            "uri": "/Douglas-Kay-Band-Into-Your-Head/release/20245531",
+            "catno": "DK003",
+            "title": "Douglas Kay Band - Into Your Head",
+            "thumb": "https://i.discogs.com/z1Kn5R20uc4ctPoHLQC44G-O8ZoR14xx2Axb3trCoPc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMjQ1/NTMxLTE2MzE5NTU1/MjMtOTg0OC5qcGVn.jpeg",
+            "cover_image": "https://i.discogs.com/u_5rNHTWh354O_hHmfbrInJ0bYR-IR55F9gKUdqV7sI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMjQ1/NTMxLTE2MzE5NTU1/MjMtOTg0OC5qcGVn.jpeg",
+            "resource_url": "https://api.discogs.com/releases/20245531",
+            "community": {
+                "want": 0,
+                "have": 1
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "CD",
+                    "qty": "1"
+                }
+            ]
+        },
+        {
+            "country": "Unknown",
+            "year": "2020",
+            "format": [
+                "File",
+                "FLAC"
+            ],
+            "label": [
+                "Make-That-A-Take Records",
+                "Make Yer Ane Comp",
+                "Kesbri Studios"
+            ],
+            "type": "release",
+            "genre": [
+                "Rock"
+            ],
+            "style": [
+                "Punk"
+            ],
+            "id": 16326588,
+            "barcode": [],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 0,
+            "master_url": null,
+            "uri": "/release/16326588-Various-Make-Yer-Ane-Comp-VIII",
+            "catno": "none",
+            "title": "Various - Make Yer Ane Comp VIII",
+            "thumb": "https://i.discogs.com/EC9Z7Q5c8TRR4422Gy8RcasOcKMdC617ZaEG396nXoc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2MzI2/NTg4LTE2MDcwODY1/MDktMjAzMS5qcGVn.jpeg",
+            "cover_image": "https://i.discogs.com/EXzgNzL-cOM9WQYSXzXA02HpMWyGgfXoEsJFisf6FyE/rs:fit/g:sm/q:90/h:614/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2MzI2/NTg4LTE2MDcwODY1/MDktMjAzMS5qcGVn.jpeg",
+            "resource_url": "https://api.discogs.com/releases/16326588",
+            "community": {
+                "want": 0,
+                "have": 3
+            },
+            "format_quantity": 0,
+            "formats": [
+                {
+                    "name": "File",
+                    "qty": "68",
+                    "descriptions": [
+                        "FLAC"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "Russia",
+            "year": "2004",
+            "format": [
+                "CD",
+                "CD-ROM",
+                "Compilation",
+                "Unofficial Release"
+            ],
+            "label": [
+                "Навигатор",
+                "Домашняя Коллекция",
+                "ЗАО \"Полимер-сервис\""
+            ],
+            "type": "master",
+            "genre": [
+                "Rock"
+            ],
+            "style": [
+                "Hard Rock",
+                "Classic Rock",
+                "Prog Rock",
+                "Heavy Metal"
+            ],
+            "id": 1218143,
+            "barcode": [
+                "4 619497 401175",
+                "4619497401175",
+                "NUMO085"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 1218143,
+            "master_url": "https://api.discogs.com/masters/1218143",
+            "uri": "/Deep-Purple-%D0%9E%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D0%94%D0%B8%D1%81%D0%BA%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F1974-2003-CD2/master/1218143",
+            "catno": "NUMO085",
+            "title": "Deep Purple - Официальная Дискография(1974-2003) CD2",
+            "thumb": "https://i.discogs.com/lKFkr39xlQ-SLHMUA8qLFkSdRTatVG_xZ6sA6KGT3d4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgyOTk0/MDktMTQ1ODkwODg3/My05OTE4LmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/8x2ay1ox3DCHW_OKZeDUbxvgdUCa0k7jUHTGidXMvXw/rs:fit/g:sm/q:90/h:592/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgyOTk0/MDktMTQ1ODkwODg3/My05OTE4LmpwZWc.jpeg",
+            "resource_url": "https://api.discogs.com/masters/1218143",
+            "community": {
+                "want": 3,
+                "have": 5
+            }
+        },
+        {
+            "id": 4398860,
+            "type": "artist",
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": null,
+            "master_url": null,
+            "uri": "/artist/4398860-Demented-Machine",
+            "title": "Demented Machine",
+            "thumb": "https://i.discogs.com/-dh0PauOIHUjJ8SfsqZ4tm0vA_8tOTQwMblAoReFJ4U/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQzOTg4/NjAtMTQzMTIyNjAz/NS00MDMzLmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/sUtsTDIqHPkCaCel1oLCjeGFVwAXw7t_Eawfhvxao5c/rs:fit/g:sm/q:90/h:280/w:280/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQzOTg4/NjAtMTQzMTIyNjAz/NS00MDMzLmpwZWc.jpeg",
+            "resource_url": "https://api.discogs.com/artists/4398860"
+        },
+        {
+            "country": "US",
+            "year": "1993",
+            "format": [
+                "CD",
+                "Mini",
+                "Shape",
+                "CD-ROM",
+                "Album",
+                "Remastered",
+                "Stereo",
+                "NTSC",
+                "Box Set"
+            ],
+            "label": [
+                "Sound Ideas",
+                "Sound Ideas",
+                "Sound Ideas",
+                "Sound Ideas",
+                "Sound Ideas"
+            ],
+            "type": "release",
+            "genre": [
+                "Non-Music"
+            ],
+            "style": [
+                "Movie Effects",
+                "Special Effects",
+                "Spoken Word"
+            ],
+            "id": 12423143,
+            "barcode": [],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 0,
+            "master_url": null,
+            "uri": "/Sound-Ideas-Canada-The-Hanna-Barbera-SoundFX-Library/release/12423143",
+            "catno": "HB-01",
+            "title": "Sound Ideas Canada - The Hanna-Barbera SoundFX Library",
+            "thumb": "https://i.discogs.com/7yLZng7-TLbJX7Ff1H8c2-8zSb1oTZQ4XRiEp3IrMYc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNDIz/MTQzLTE1MzQ5ODYw/ODUtMzg3MC5qcGVn.jpeg",
+            "cover_image": "https://i.discogs.com/gECixB0QnrunVNYUbXiaAd2ZL_5BXJId1pIp3xkPahQ/rs:fit/g:sm/q:90/h:250/w:250/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNDIz/MTQzLTE1MzQ5ODYw/ODUtMzg3MC5qcGVn.jpeg",
+            "resource_url": "https://api.discogs.com/releases/12423143",
+            "community": {
+                "want": 47,
+                "have": 8
+            },
+            "format_quantity": 5,
+            "formats": [
+                {
+                    "name": "CD",
+                    "qty": "5",
+                    "descriptions": [
+                        "Mini",
+                        "Shape",
+                        "CD-ROM",
+                        "Album",
+                        "Remastered",
+                        "Stereo",
+                        "NTSC"
+                    ]
+                },
+                {
+                    "name": "Box Set",
+                    "qty": "1"
+                }
+            ]
+        },
+        {
+            "country": "US",
+            "year": "2012",
+            "format": [
+                "File",
+                "Compilation",
+                "MP3"
+            ],
+            "label": [
+                "Grindhouse Musick Inc."
+            ],
+            "type": "release",
+            "genre": [
+                "Hip Hop"
+            ],
+            "style": [
+                "Horrorcore"
+            ],
+            "id": 4220991,
+            "barcode": [],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 2158801,
+            "master_url": "https://api.discogs.com/masters/2158801",
+            "uri": "/Cryptik-X-Tha-Morb1d-Morbid-Movie-Massacre/release/4220991",
+            "catno": "GMI-0001",
+            "title": "Cryptik X Tha Morb1d* - Morbid Movie Massacre",
+            "thumb": "",
+            "cover_image": "https://s.discogs.com/ba9dc00ea28dd509e0145bac1167931926479262/images/spacer.gif",
+            "resource_url": "https://api.discogs.com/releases/4220991",
+            "community": {
+                "want": 0,
+                "have": 1
+            },
+            "format_quantity": 0,
+            "formats": [
+                {
+                    "name": "File",
+                    "qty": "24",
+                    "descriptions": [
+                        "Compilation",
+                        "MP3"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "Russia",
+            "year": "2004",
+            "format": [
+                "CD",
+                "CD-ROM",
+                "Compilation",
+                "Unofficial Release"
+            ],
+            "label": [
+                "Навигатор",
+                "Домашняя Коллекция",
+                "ЗАО \"Полимер-сервис\""
+            ],
+            "type": "release",
+            "genre": [
+                "Rock"
+            ],
+            "style": [
+                "Hard Rock",
+                "Classic Rock",
+                "Prog Rock",
+                "Heavy Metal"
+            ],
+            "id": 8299409,
+            "barcode": [
+                "4 619497 401175",
+                "4619497401175",
+                "NUMO085"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 1218143,
+            "master_url": "https://api.discogs.com/masters/1218143",
+            "uri": "/Deep-Purple-%D0%9E%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D0%94%D0%B8%D1%81%D0%BA%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F1974-2003-CD2/release/8299409",
+            "catno": "NUMO085",
+            "title": "Deep Purple - Официальная Дискография(1974-2003) CD2",
+            "thumb": "https://i.discogs.com/lKFkr39xlQ-SLHMUA8qLFkSdRTatVG_xZ6sA6KGT3d4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgyOTk0/MDktMTQ1ODkwODg3/My05OTE4LmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/8x2ay1ox3DCHW_OKZeDUbxvgdUCa0k7jUHTGidXMvXw/rs:fit/g:sm/q:90/h:592/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgyOTk0/MDktMTQ1ODkwODg3/My05OTE4LmpwZWc.jpeg",
+            "resource_url": "https://api.discogs.com/releases/8299409",
+            "community": {
+                "want": 1,
+                "have": 3
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "CD",
+                    "qty": "1",
+                    "text": "MP3, 192 kbps",
+                    "descriptions": [
+                        "CD-ROM",
+                        "Compilation",
+                        "Unofficial Release"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "US",
+            "year": "2012",
+            "format": [
+                "CD",
+                "Album",
+                "Compilation",
+                "Box Set",
+                "Album",
+                "Compilation"
+            ],
+            "label": [
+                "Clyde Records",
+                "Ray Stevens Studio"
+            ],
+            "type": "release",
+            "genre": [
+                "Pop",
+                "Folk, World, & Country"
+            ],
+            "style": [
+                "Comedy",
+                "Novelty",
+                "Country"
+            ],
+            "id": 12340281,
+            "barcode": [
+                "7 00886 00662 1",
+                "700886006621"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 0,
+            "master_url": null,
+            "uri": "/Ray-Stevens-Encyclopedia-Of-Recorded-Comedy-Music/release/12340281",
+            "catno": "CD-7050",
+            "title": "Ray Stevens - Encyclopedia Of Recorded Comedy Music",
+            "thumb": "https://i.discogs.com/9pTDV-nojzbBU0m_dQ8PbYDwvE7KNNiPn2dXTyGaC-w/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMzQw/MjgxLTE1MzMyNjkx/NjUtNTkyMC5qcGVn.jpeg",
+            "cover_image": "https://i.discogs.com/Z0t2P2FEwZ6TNfVZjtsN8kHXg9AQr5e18fi5yEkCR5w/rs:fit/g:sm/q:90/h:993/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMzQw/MjgxLTE1MzMyNjkx/NjUtNTkyMC5qcGVn.jpeg",
+            "resource_url": "https://api.discogs.com/releases/12340281",
+            "community": {
+                "want": 3,
+                "have": 7
+            },
+            "format_quantity": 9,
+            "formats": [
+                {
+                    "name": "CD",
+                    "qty": "9",
+                    "descriptions": [
+                        "Album",
+                        "Compilation"
+                    ]
+                },
+                {
+                    "name": "Box Set",
+                    "qty": "1",
+                    "descriptions": [
+                        "Album",
+                        "Compilation"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "UK",
+            "year": "2011",
+            "format": [
+                "CD",
+                "Compilation",
+                "Mixed",
+                "Box Set",
+                "Limited Edition",
+                "Numbered"
+            ],
+            "label": [
+                "LateNightTales",
+                "LateNightTales"
+            ],
+            "type": "release",
+            "genre": [
+                "Electronic",
+                "Hip Hop",
+                "Rock",
+                "Funk / Soul"
+            ],
+            "style": [
+                "Downtempo",
+                "Trip Hop",
+                "Breaks",
+                "Dub",
+                "House",
+                "Leftfield",
+                "Experimental",
+                "Alternative Rock"
+            ],
+            "id": 8417021,
+            "barcode": [
+                "ALNCD01",
+                "ALNCD02",
+                "ALNCD03",
+                "ALNCD04",
+                "ALNCD05",
+                "ALNCD06",
+                "ALNCD07",
+                "ALNCD08",
+                "ALNCD09",
+                "ALNCD10",
+                "ALNCD11",
+                "ALNCD12",
+                "ALNCD13",
+                "ALNCD14",
+                "ALNCD15",
+                "ALNCD17",
+                "ALNCD18",
+                "ALNCD19",
+                "ALNCD20",
+                "ALNCD21",
+                "ALNCD22",
+                "ALNCD23",
+                "ALNCD24",
+                "ALNCD25",
+                "ALNCD26",
+                "ALNCDM001",
+                "ALNCDC001"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 0,
+            "master_url": null,
+            "uri": "/release/8417021-Various-LateNightTales-TheDecadeBox",
+            "catno": "none",
+            "title": "Various - LateNightTales (TheDecadeBox)",
+            "thumb": "https://i.discogs.com/ThH2aCZ9cxQ4abscUdcG7xuJVa0POnYaCYxT5i88I2E/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg0MTcw/MjEtMTQ2MTE4NjQ1/Ny0zOTAzLmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/VdLfKGG9_eVVmCX3mhA-cuibf1F3AEjYkrQmV_iOhB8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg0MTcw/MjEtMTQ2MTE4NjQ1/Ny0zOTAzLmpwZWc.jpeg",
+            "resource_url": "https://api.discogs.com/releases/8417021",
+            "community": {
+                "want": 285,
+                "have": 34
+            },
+            "format_quantity": 27,
+            "formats": [
+                {
+                    "name": "CD",
+                    "qty": "27",
+                    "descriptions": [
+                        "Compilation",
+                        "Mixed"
+                    ]
+                },
+                {
+                    "name": "Box Set",
+                    "qty": "1",
+                    "descriptions": [
+                        "Limited Edition",
+                        "Numbered"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "Russia",
+            "year": "2013",
+            "format": [
+                "CDr",
+                "CD-ROM",
+                "Compilation",
+                "Unofficial Release"
+            ],
+            "label": [
+                "Digital Records",
+                "Digital Records",
+                "Digital Records",
+                "ООО \"Спартак\""
+            ],
+            "type": "master",
+            "genre": [
+                "Rock"
+            ],
+            "style": [
+                "Hard Rock",
+                "Classic Rock",
+                "Prog Rock",
+                "Heavy Metal"
+            ],
+            "id": 1692636,
+            "barcode": [
+                "4 602016 005954",
+                "4602016005954"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 1692636,
+            "master_url": "https://api.discogs.com/masters/1692636",
+            "uri": "/Deep-Purple-MP3-Collection/master/1692636",
+            "catno": "none",
+            "title": "Deep Purple - MP3 Collection",
+            "thumb": "https://i.discogs.com/jAazzf0JMq2RjfKufPW7UGHJY_Y0nej7ZX4vwaR3tpg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcyMTk3/NjUtMTQzNjQ1NTM5/OS02ODU4LmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/zO2Oab3Kaikpf6u9DUruXPbNmdMhfHjpzK-E2EmJ82M/rs:fit/g:sm/q:90/h:596/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcyMTk3/NjUtMTQzNjQ1NTM5/OS02ODU4LmpwZWc.jpeg",
+            "resource_url": "https://api.discogs.com/masters/1692636",
+            "community": {
+                "want": 18,
+                "have": 13
+            }
+        }
+    ]
