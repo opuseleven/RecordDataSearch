@@ -1,0 +1,27 @@
+.searchformcontainer {
+  padding-bottom: 16px;
+}
+
+.searchbutton {
+
+}
+
+.searchinput {
+  margin-right: 16px;
+}
+
+.releasecontainer {
+  padding: 4px;
+  padding-bottom: 16px;
+  border-bottom: 4px solid #eaeaea;
+}
+
+.detaillist {
+  border-top: 1px solid black;
+  padding: 2px;
+  padding-top: 4px;
+}
+
+.detaillistitem {
+  padding: 2px;
+}
