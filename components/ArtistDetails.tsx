@@ -1,6 +1,4 @@
-import Image from 'next/image';
 import { Artist } from '../types';
-import { useState, useEffect } from 'react';
 
 interface ArtistDetailsProps {
   artist: Artist
@@ -8,21 +6,17 @@ interface ArtistDetailsProps {
 
 const ArtistDetails: React.FC<ArtistDetailsProps> = ({ artist }) => {
 
-  const [displayedArtist, setDisplayedArtist] = useState(artist);
-
-  useEffect(() => {
-    setDisplayedArtist(artist);
-  }, [artist])
-
   return (
     <div>
-      {
-        displayedArtist && (
-          <div>
-            <h3>{displayedArtist.title}</h3>
-          </div>
-        )
-      }
+      <div>
+        {
+          artist && (
+            <div>
+              <h3>{artist.title}</h3>
+            </div>
+          )
+        }
+      </div>
     </div>
   )
 }
