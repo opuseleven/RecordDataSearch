@@ -2,23 +2,17 @@ import { Release  } from '../types';
 import { useState, useEffect } from 'react';
 
 interface ReleaseDetailsProps {
-  releases: Release[]
+  releases: Release[] | undefined
 }
 
 const ReleaseDetails: React.FC<ReleaseDetailsProps> = ({ releases }) => {
-
-  const [displayedReleases, setDisplayedReleases] = useState(releases);
-
-  useEffect(() => {
-    setDisplayedReleases(releases);
-  }, [releases])
 
   return (
     <div>
       <ul>
         {
-          displayedReleases && (
-            displayedReleases.map((r: Release) => (
+          releases && (
+            releases.map((r: Release) => (
               <li key={r.id.toString()}>
                 <h4>{r.title}</h4>
                 <h5>{r.artist}</h5>
