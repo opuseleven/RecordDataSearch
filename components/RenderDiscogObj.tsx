@@ -1,4 +1,5 @@
 import { DiscogObj } from '../types';
+import styles from '../styles/Components.module.css';
 
 interface RenderDiscogObjProps {
   obj: DiscogObj
@@ -7,22 +8,24 @@ interface RenderDiscogObjProps {
 const RenderDiscogObj: React.FC<RenderDiscogObjProps> = ({ obj }) => {
 
   return (
-    <div>
-      <h6>{obj.name}</h6>
-      <div>
-        {
-          obj.entity_type_name && (
-            <p>Type: {obj.entity_type_name}</p>
-          )
-        }
-      </div>
-      <div>
-        {
-          obj.role && (
-            <p>Role: {obj.role}</p>
-          )
-        }
-      </div>
+    <div className={styles.objcontainer}>
+      <ul>
+        <li><h5>{obj.name}</h5></li>
+        <div>
+          {
+            obj.entity_type_name && (
+              <li><h5>Type: {obj.entity_type_name}</h5></li>
+            )
+          }
+        </div>
+        <div>
+          {
+            obj.role && (
+              <li><h5>Role: {obj.role}</h5></li>
+            )
+          }
+        </div>
+      </ul>
     </div>
   )
 }
