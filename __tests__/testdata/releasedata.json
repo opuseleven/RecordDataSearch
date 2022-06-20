@@ -1,0 +1,356 @@
+{
+  "id": 21688297,
+  "status": "Accepted",
+  "year": 2017,
+  "resource_url": "https://api.discogs.com/releases/21688297",
+  "uri": "https://www.discogs.com/release/21688297-Haunted-Like-Human-Ghost-Stories",
+  "artists": [
+    {
+      "name": "Haunted Like Human",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 7628210,
+      "resource_url": "https://api.discogs.com/artists/7628210"
+    }
+  ],
+  "artists_sort": "Haunted Like Human",
+  "labels": [
+    {
+      "name": "Not On Label",
+      "catno": "none",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 1818,
+      "resource_url": "https://api.discogs.com/labels/1818"
+    }
+  ],
+  "series": [],
+  "companies": [
+    {
+      "name": "Disc Makers",
+      "catno": "MBI1602",
+      "entity_type": "10",
+      "entity_type_name": "Manufactured By",
+      "id": 165472,
+      "resource_url": "https://api.discogs.com/labels/165472"
+    }
+  ],
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Album", "Stereo"
+      ]
+    }
+  ],
+  "data_quality": "Needs Vote",
+  "community": {
+    "have": 1,
+    "want": 0,
+    "rating": {
+      "count": 0,
+      "average": 0.0
+    },
+    "submitter": {
+      "username": "Wire_Fox",
+      "resource_url": "https://api.discogs.com/users/Wire_Fox"
+    },
+    "contributors": [
+      {
+        "username": "Wire_Fox",
+        "resource_url": "https://api.discogs.com/users/Wire_Fox"
+      }
+    ],
+    "data_quality": "Needs Vote",
+    "status": "Accepted"
+  },
+  "format_quantity": 1,
+  "date_added": "2022-01-10T16:52:20-08:00",
+  "date_changed": "2022-05-27T17:20:14-07:00",
+  "num_for_sale": 0,
+  "lowest_price": null,
+  "title": "Ghost Stories",
+  "country": "US",
+  "released": "2017-09-29",
+  "notes": "Haunted Like Human is Dale Chapman and Cody Clark",
+  "released_formatted": "29 Sep 2017",
+  "identifiers": [
+    {
+      "type": "Barcode",
+      "value": "191924263852"
+    },
+    {
+      "type": "Mastering SID Code",
+      "value": "IFPI LZ71"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "MBI1602"
+    }
+  ],
+  "genres": ["Folk, World, & Country"],
+  "tracklist": [
+    {
+      "position": "1",
+      "type_": "track",
+      "title": "First Light",
+      "duration": "2:32"
+    },
+    {
+      "position": "2",
+      "type_": "track",
+      "title": "Ghost Stories",
+      "extraartists": [
+        {
+          "name": "David Brock (8)",
+          "anv": "",
+          "join": "",
+          "role": "Written By",
+          "tracks": "",
+          "id": 10591495,
+          "resource_url": "https://api.discogs.com/artists/10591495"
+        },
+        {
+          "name": "Haunted Like Human",
+          "anv": "",
+          "join": "",
+          "role": "Written By",
+          "tracks": "",
+          "id": 7628210,
+          "resource_url": "https://api.discogs.com/artists/7628210"
+        }
+      ],
+      "duration": "3:04"
+    },
+    {
+      "position": "3",
+      "type_": "track",
+      "title": "Orion",
+      "duration": "2:47"
+    },
+    {
+      "position": "4",
+      "type_": "track",
+      "title": "Cold War",
+      "duration": "4:00"
+    },
+    {
+      "position": "5",
+      "type_": "track",
+      "title": "River (Come Back Up)",
+      "duration": "2:32"
+    },
+    {
+      "position": "6",
+      "type_": "track",
+      "title": "California",
+      "duration": "2:50"
+    },
+    {
+      "position": "7",
+      "type_": "track",
+      "title": "In a Bad Way",
+      "duration": "2:47"
+    },
+    {
+      "position": "8",
+      "type_": "track",
+      "title": "The Mammoth Song",
+      "extraartists": [
+        {
+          "name": "David Brock (8)",
+          "anv": "",
+          "join": "",
+          "role": "Backing Vocals",
+          "tracks": "",
+          "id": 10591495,
+          "resource_url": "https://api.discogs.com/artists/10591495"
+        },
+        {
+          "name": "Evan Laing",
+          "anv": "",
+          "join": "",
+          "role": "Backing Vocals",
+          "tracks": "",
+          "id": 9708256,
+          "resource_url": "https://api.discogs.com/artists/9708256"
+        },
+        {
+          "name": "Haunted Like Human",
+          "anv": "",
+          "join": "",
+          "role": "Backing Vocals",
+          "tracks": "",
+          "id": 7628210,
+          "resource_url": "https://api.discogs.com/artists/7628210"
+        },
+        {
+          "name": "Jackie Sullivan (4)",
+          "anv": "",
+          "join": "",
+          "role": "Backing Vocals",
+          "tracks": "",
+          "id": 10591504,
+          "resource_url": "https://api.discogs.com/artists/10591504"
+        },
+        {
+          "name": "Megan Brock",
+          "anv": "",
+          "join": "",
+          "role": "Backing Vocals",
+          "tracks": "",
+          "id": 10591507,
+          "resource_url": "https://api.discogs.com/artists/10591507"
+        },
+        {
+          "name": "Rachael Saum",
+          "anv": "",
+          "join": "",
+          "role": "Backing Vocals",
+          "tracks": "",
+          "id": 10591510,
+          "resource_url": "https://api.discogs.com/artists/10591510"
+        }
+      ],
+      "duration": "2:55"
+    },
+    {
+      "position": "9",
+      "type_": "track",
+      "title": "Benjamin",
+      "duration": "3:10"
+    },
+    {
+      "position": "10",
+      "type_": "track",
+      "title": "Tides",
+      "duration": "5:02"
+    },
+    {
+      "position": "11",
+      "type_": "track",
+      "title": "Never Come Down",
+      "duration": "2:27"
+    },
+    {
+      "position": "12",
+      "type_": "track",
+      "title": "Storyteller",
+      "duration": "3:15"
+    }
+  ],
+  "extraartists": [
+    {
+      "name": "Trevor Gulley",
+      "anv": "",
+      "join": "",
+      "role": "Artwork By, Design",
+      "tracks": "",
+      "id": 10591492,
+      "resource_url": "https://api.discogs.com/artists/10591492"
+    },
+    {
+      "name": "Evan Breland",
+      "anv": "",
+      "join": "",
+      "role": "Cello",
+      "tracks": "",
+      "id": 5070380,
+      "resource_url": "https://api.discogs.com/artists/5070380"
+    },
+    {
+      "name": "Bill Henderson",
+      "anv": "",
+      "join": "",
+      "role": "Mastered By",
+      "tracks": "",
+      "id": 272731,
+      "resource_url": "https://api.discogs.com/artists/272731"
+    },
+    {
+      "name": "David Brock (8)",
+      "anv": "",
+      "join": "",
+      "role": "Percussion",
+      "tracks": "",
+      "id": 10591495,
+      "resource_url": "https://api.discogs.com/artists/10591495"
+    },
+    {
+      "name": "Jason Renaud",
+      "anv": "",
+      "join": "",
+      "role": "Photography By",
+      "tracks": "",
+      "id": 10591498,
+      "resource_url": "https://api.discogs.com/artists/10591498"
+    },
+    {
+      "name": "Haunted Like Human",
+      "anv": "",
+      "join": "",
+      "role": "Producer",
+      "tracks": "",
+      "id": 7628210,
+      "resource_url": "https://api.discogs.com/artists/7628210"
+    },
+    {
+      "name": "Billy Vandemark",
+      "anv": "",
+      "join": "",
+      "role": "Recorded By",
+      "tracks": "",
+      "id": 10591501,
+      "resource_url": "https://api.discogs.com/artists/10591501"
+    },
+    {
+      "name": "Evan Laing",
+      "anv": "",
+      "join": "",
+      "role": "Recorded By, Mixed By, Producer",
+      "tracks": "",
+      "id": 9708256,
+      "resource_url": "https://api.discogs.com/artists/9708256"
+    }
+  ],
+  "images": [
+    {
+      "type": "secondary",
+      "uri": "",
+      "resource_url": "",
+      "uri150": "",
+      "width": 600,
+      "height": 537
+    },
+    {
+      "type": "secondary",
+      "uri": "",
+      "resource_url": "",
+      "uri150": "",
+      "width": 600,
+      "height": 560
+    },
+    {
+      "type": "secondary",
+      "uri": "",
+      "resource_url": "",
+      "uri150": "",
+      "width": 600,
+      "height": 561
+    },
+    {
+      "type": "secondary",
+      "uri": "",
+      "resource_url": "",
+      "uri150": "",
+      "width": 600,
+      "height": 542
+    }
+  ],
+  "thumb": "",
+  "estimated_weight": 85,
+  "blocked_from_sale": false
+}
