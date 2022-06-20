@@ -9,12 +9,14 @@ describe('RenderTrack component', () => {
 
   it('Component renders', () => {
     render(<RenderTrack track={tracklist[1]} />);
-    expect(screen.getByRole('heading')).toHaveTextContent('Ohio');
+    expect(screen.getAllByRole('heading')[0]).toHaveTextContent('2. Ohio');
+    expect(screen.getAllByRole('heading')[1]).toHaveTextContent('Track length: 2:57');
   })
 
   it('Component renders with extraartists prop', () => {
     render(<RenderTrack track={tracklist[2]} />);
-    expect(screen.getAllByRole('heading')[0]).toHaveTextContent('City By The Sea');
-    expect(screen.getAllByRole('heading')[1]).toHaveTextContent('David Brock (8)');
+    expect(screen.getAllByRole('heading')[0]).toHaveTextContent('3. City By The Sea');
+    expect(screen.getAllByRole('heading')[1]).toHaveTextContent('Track length: 4:24');
+    expect(screen.getAllByRole('heading')[2]).toHaveTextContent('Songwriter - David Brock (8)');
   })
 })
