@@ -43,3 +43,8 @@
 .discoglink {
 
 }
+
+.discoglink a:hover {
+  cursor: pointer;
+  color: blue;
+}
