@@ -12,11 +12,20 @@ const DisplayRelease: React.FC<DisplayReleaseProps> = ({ release }) => {
 
   const [showMore, setShowMore] = useState<boolean>(false);
   const [detailedRelease, setDetailedRelease] = useState<DetailedRelease>();
+  const token = process.env.TOKEN;
 
   useEffect(() => {
     try {
       axios
-        .get(release.resource_url)
+        .request({
+          url: release.resource_url,
+          method: 'get',
+          responseType: 'json',
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+            'Authorization': 'Discogs token=' + token
+          }
+        })
         .then((res) => setDetailedRelease(res.data));
     } catch(err) {
       console.log(err);
@@ -36,7 +45,7 @@ const DisplayRelease: React.FC<DisplayReleaseProps> = ({ release }) => {
       <button onClick={() => setShowMore(!showMore)}
         className={styles.showmorebutton}
       >
-        { showMore ? 'Hide' : 'Show' } More
+        { showMore ? 'Hide' : 'Show' } Details
       </button>
 
       <div className={styles.detailedreleasecontainer}>
