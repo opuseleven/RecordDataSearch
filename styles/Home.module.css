@@ -104,6 +104,14 @@
   line-height: 1.5;
 }
 
+.infocontainer {
+  width: 60vw;
+}
+
+.info {
+  text-align: center;
+}
+
 .logo {
   height: 1em;
   margin-left: 0.5rem;

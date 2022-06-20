@@ -37,8 +37,6 @@ const Home: NextPage = () => {
           const error = dataError();
           setData(error);
         })
-    } else {
-        setData(dataError());
       }
     }, [artistSearch])
 
@@ -47,8 +45,9 @@ const Home: NextPage = () => {
     const artistCheck = artistMatch(artistSearches, artistSearch);
     if (artistCheck.type === 'artist') {
       getReleasesUrl(artistCheck, setReleasesUrl);
-      console.log(artistCheck.title);
       setArtist(artistCheck);
+    } else if (data.length === 0) {
+      setArtist(undefined);
     } else {
       setArtist(defaultArtist);
     }
@@ -69,6 +68,16 @@ const Home: NextPage = () => {
         </h1>
 
         <SearchBar setArtistSearch={setArtistSearch} />
+
+        <div className={styles.infocontainer}>
+          {
+            !artist && (
+              <h3 className={styles.info}>
+                Search by name of musical artist to see info on the artist's full discography
+              </h3>
+            )
+          }
+        </div>
 
         <div>
           {
