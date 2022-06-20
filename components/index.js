@@ -3,3 +3,7 @@ export * from './ResultsContainer';
 export * from './ArtistDetails';
 export * from './ReleaseDetails';
 export * from './DisplayRelease';
+export * from './DisplayDetailedRelease';
+export * from './RenderDiscogObj';
+export * from './RenderExtraArtist';
+export * from './RenderTrack';
