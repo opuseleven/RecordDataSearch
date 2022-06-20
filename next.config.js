@@ -3,6 +3,9 @@ const nextConfig = {
   reactStrictMode: true,
   env: {
     TOKEN: process.env.TOKEN,
+  },
+  images: {
+    domains: ['i.discogs.com']
   }
 }
 
