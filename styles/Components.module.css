@@ -3,7 +3,8 @@
 }
 
 .searchbutton {
-
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 .searchinput {
@@ -24,4 +25,8 @@
 
 .detaillistitem {
   padding: 2px;
+}
+
+.showmorebutton {
+  margin-top: 8px;
 }
