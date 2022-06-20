@@ -10,18 +10,18 @@ describe('RenderDiscogObj component', () => {
 
   it('Component renders', () => {
     render(<RenderDiscogObj obj={testArr[2]} />);
-    expect(screen.getByRole('heading')).toHaveTextContent('Bill Henderson')
+    expect(screen.getAllByRole('heading')[0]).toHaveTextContent('Bill Henderson')
   })
 
   it('Component renders with role prop', () => {
     render(<RenderDiscogObj obj={testArr[3]} />);
-    expect(screen.getByRole('heading')).toHaveTextContent('David Brock (8)');
-    expect(screen.getByText('Role: Percussion')).toBeDefined();
+    expect(screen.getAllByRole('heading')[0]).toHaveTextContent('David Brock (8)');
+    expect(screen.getAllByRole('heading')[1]).toHaveTextContent('Role: Percussion');
   })
 
   it('Component renders with entity_type_name prop', () => {
     render(<RenderDiscogObj obj={testCompanies[0]} />);
-    expect(screen.getByRole('heading')).toHaveTextContent('Disc Makers');
-    expect(screen.getByText('Type: Manufactured By')).toBeDefined();
+    expect(screen.getAllByRole('heading')[0]).toHaveTextContent('Disc Makers');
+    expect(screen.getAllByRole('heading')[1]).toHaveTextContent('Type: Manufactured By');
   })
 })
