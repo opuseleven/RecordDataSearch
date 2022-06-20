@@ -30,3 +30,7 @@
 .showmorebutton {
   margin-top: 8px;
 }
+
+.objcontainer {
+  border-bottom: 4px solid #eaeaea;
+}
