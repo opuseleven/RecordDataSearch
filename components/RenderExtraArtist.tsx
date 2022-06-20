@@ -8,8 +8,9 @@ const RenderExtraArtist: React.FC<RenderExtraArtistProps> = ({ extraArtist }) =>
 
   return (
     <div>
-      <h6>{extraArtist.name}</h6>
-      <h6>{extraArtist.role}</h6>
+      <ul>
+        <li><h6>{extraArtist.role} - {extraArtist.name}</h6></li>
+      </ul>
     </div>
   )
 }
