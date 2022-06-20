@@ -41,7 +41,7 @@ const DisplayRelease: React.FC<DisplayReleaseProps> = ({ release }) => {
         <li className={styles.detaillistitem}>Format: {release.format}</li>
         <li className={styles.detaillistitem}>
           <a className={styles.discoglink} href={release.resource_url} target='_blank'>
-            View on Discogs
+            View raw data
           </a>
         </li>
       </ul>
