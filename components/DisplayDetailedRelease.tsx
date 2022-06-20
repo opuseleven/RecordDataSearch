@@ -9,9 +9,7 @@ interface DisplayDetailedReleaseProps {
 const DisplayDetailedRelease: React.FC<DisplayDetailedReleaseProps> = ({ detailedRelease }) => {
 
   const companies = detailedRelease.companies;
-  const artists = detailedRelease.artist;
   const labels = detailedRelease.labels;
-  const formats = detailedRelease.formats;
   const tracklist = detailedRelease.tracklist;
   const extraArtists = detailedRelease.extraartists;
 
