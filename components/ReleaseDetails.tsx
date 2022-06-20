@@ -27,6 +27,7 @@ const ReleaseDetails: React.FC<ReleaseDetailsProps> = ({ releasesUrl }) => {
       .then((res) => setDisplayedReleases(res.data.releases))
       .catch((err) => {
         console.log(err);
+        setDisplayedReleases(ReleasesNotFoundError());
       });
   }, [releasesUrl])
 
