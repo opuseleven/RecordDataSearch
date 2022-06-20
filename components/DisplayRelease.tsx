@@ -15,21 +15,20 @@ const DisplayRelease: React.FC<DisplayReleaseProps> = ({ release }) => {
   const token = process.env.TOKEN;
 
   useEffect(() => {
-    try {
-      axios
-        .request({
-          url: release.resource_url,
-          method: 'get',
-          responseType: 'json',
-          headers: {
-            'Content-Type': 'application/x-www-form-urlencoded',
-            'Authorization': 'Discogs token=' + token
-          }
-        })
-        .then((res) => setDetailedRelease(res.data));
-    } catch(err) {
-      console.log(err);
-    }
+    axios
+      .request({
+        url: release.resource_url,
+        method: 'get',
+        responseType: 'json',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded',
+          'Authorization': 'Discogs token=' + token
+        }
+      })
+      .then((res) => setDetailedRelease(res.data))
+      .catch((err) => {
+        console.log(err);
+      });
   }, [release])
 
   return (
@@ -40,7 +39,11 @@ const DisplayRelease: React.FC<DisplayReleaseProps> = ({ release }) => {
         <li className={styles.detaillistitem}>Label: {release.label}</li>
         <li className={styles.detaillistitem}>Release Year: {release.year}</li>
         <li className={styles.detaillistitem}>Format: {release.format}</li>
-        <li className={styles.detaillistitem}><a>View on Discogs</a></li>
+        <li className={styles.detaillistitem}>
+          <a className={styles.discoglink} href={release.resource_url} target='_blank'>
+            View on Discogs
+          </a>
+        </li>
       </ul>
       <button onClick={() => setShowMore(!showMore)}
         className={styles.showmorebutton}

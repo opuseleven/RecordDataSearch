@@ -14,22 +14,20 @@ const ReleaseDetails: React.FC<ReleaseDetailsProps> = ({ releasesUrl }) => {
   const token = process.env.TOKEN;
 
   useEffect(() => {
-    try {
-      axios
-        .request({
-          url: releasesUrl,
-          method: 'get',
-          responseType: 'json',
-          headers: {
-            'Content-Type': 'application/x-www-form-urlencoded',
-            'Authorization': 'Discogs token=' + token
-          }
-        })
-        .then((res) => setDisplayedReleases(res.data.releases))
-    } catch(err) {
-      console.log(err);
-      setDisplayedReleases(ReleasesNotFoundError());
-    }
+    axios
+      .request({
+        url: releasesUrl,
+        method: 'get',
+        responseType: 'json',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded',
+          'Authorization': 'Discogs token=' + token
+        }
+      })
+      .then((res) => setDisplayedReleases(res.data.releases))
+      .catch((err) => {
+        console.log(err);
+      });
   }, [releasesUrl])
 
   return (

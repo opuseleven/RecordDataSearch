@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css';
 import { useState, useEffect } from 'react';
 import { SearchBar, ResultsContainer, ReleaseDetails } from '../components';
 import { filterByArtists, artistMatch, getReleasesUrl, filterByHasType } from '../services';
-import { Artist, Release } from '../types';
+import { Artist } from '../types';
 import { artistNotFoundError, dataError } from '../errors';
 import axios from 'axios';
 
@@ -21,23 +21,22 @@ const Home: NextPage = () => {
 
   useEffect(() => {
     if (artistSearch !== '') {
-      try {
-        axios
-          .request({
-            url: 'https://api.discogs.com/database/search?q=' + artistSearch,
-            method: 'get',
-            responseType: 'json',
-            headers: {
-              'Content-Type': 'application/x-www-form-urlencoded',
-              'Authorization': 'Discogs token=' + token
-            }
-          })
-          .then((res) => setData(res.data.results));
-      } catch(err) {
-        const error = dataError();
-        console.log(err);
-        setData(error);
-      }
+      axios
+        .request({
+          url: 'https://api.discogs.com/database/search?q=' + artistSearch,
+          method: 'get',
+          responseType: 'json',
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+            'Authorization': 'Discogs token=' + token
+          }
+        })
+        .then((res) => setData(res.data.results))
+        .catch((err) => {
+          console.log(err);
+          const error = dataError();
+          setData(error);
+        })
     } else {
         setData(dataError());
       }
