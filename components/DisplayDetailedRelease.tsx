@@ -17,6 +17,7 @@ const DisplayDetailedRelease: React.FC<DisplayDetailedReleaseProps> = ({ detaile
   return (
     <div>
       <h4>{detailedRelease.title}</h4>
+
       <div>
         <ul>
           <li>Year: {detailedRelease.released}</li>
@@ -29,7 +30,9 @@ const DisplayDetailedRelease: React.FC<DisplayDetailedReleaseProps> = ({ detaile
           {
             labels && (
               labels.map(l => (
-                <RenderDiscogObj obj={l} />
+                <div key={l.id.toString()}>
+                  <RenderDiscogObj obj={l} />
+                </div>
               ))
             )
           }
@@ -40,7 +43,9 @@ const DisplayDetailedRelease: React.FC<DisplayDetailedReleaseProps> = ({ detaile
           {
             companies && (
               companies.map(c => (
-                <RenderDiscogObj obj={c} />
+                <div key={c.id.toString()}>
+                  <RenderDiscogObj obj={c} />
+                </div>
               ))
             )
           }
@@ -51,7 +56,9 @@ const DisplayDetailedRelease: React.FC<DisplayDetailedReleaseProps> = ({ detaile
           {
             extraArtists && (
               extraArtists.map(a => (
-                <RenderExtraArtist extraArtist={a} />
+                <div key={a.id.toString()}>
+                  <RenderExtraArtist extraArtist={a} />
+                </div>
               ))
             )
           }
@@ -62,7 +69,9 @@ const DisplayDetailedRelease: React.FC<DisplayDetailedReleaseProps> = ({ detaile
           {
             tracklist && (
               tracklist.map(t => (
-                <RenderTrack track={t} />
+                <div key={t.position.toString()}>
+                  <RenderTrack track={t} />
+                </div>
               ))
             )
           }
