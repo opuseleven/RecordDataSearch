@@ -27,10 +27,19 @@
   padding: 2px;
 }
 
+.detaillistitem a:hover {
+  cursor: pointer;
+  color: blue;
+}
+
 .showmorebutton {
   margin-top: 8px;
 }
 
 .objcontainer {
   border-bottom: 4px solid #eaeaea;
+}
+
+.discoglink {
+
 }
