@@ -23,7 +23,15 @@ const Home: NextPage = () => {
     if (artistSearch !== '') {
       try {
         axios
-          .get('https://api.discogs.com/database/search?q=' + artistSearch + '&token=' + token)
+          .request({
+            url: 'https://api.discogs.com/database/search?q=' + artistSearch,
+            method: 'get',
+            responseType: 'json',
+            headers: {
+              'Content-Type': 'application/x-www-form-urlencoded',
+              'Authorization': 'Discogs token=' + token
+            }
+          })
           .then((res) => setData(res.data.results));
       } catch(err) {
         const error = dataError();
