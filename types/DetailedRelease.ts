@@ -1,4 +1,4 @@
-import { DiscogObj, Format, Track, ExtraArtist } from '.';
+import { DiscogObj, Format, Track, ExtraArtist, ReleaseImg } from '.';
 
 export interface DetailedRelease {
   id: number,
@@ -27,7 +27,7 @@ export interface DetailedRelease {
   genres: string[],
   tracklist: Track[],
   extraartists: ExtraArtist[],
-  images?: any[],
+  images?: ReleaseImg[],
   thumb?: string,
   estimated_weight?: number,
   blocked_from_sale?: boolean
