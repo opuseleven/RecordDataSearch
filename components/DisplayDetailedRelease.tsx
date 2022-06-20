@@ -1,5 +1,6 @@
 import { DetailedRelease } from '../types';
 import { RenderDiscogObj, RenderExtraArtist, RenderTrack } from '.';
+import styles from '../styles/Components.module.css';
 
 interface DisplayDetailedReleaseProps {
   detailedRelease: DetailedRelease
@@ -23,6 +24,11 @@ const DisplayDetailedRelease: React.FC<DisplayDetailedReleaseProps> = ({ detaile
           <li>Year: {detailedRelease.released}</li>
           <li>Country: {detailedRelease.country}</li>
           <li>Genres: {detailedRelease.genres}</li>
+          <li className={styles.discoglink}>
+            <a target='_blank' href={detailedRelease.uri}>
+              View on Discogs
+            </a>
+          </li>
         </ul>
 
         <div>
