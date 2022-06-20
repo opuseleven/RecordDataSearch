@@ -11,10 +11,9 @@ const RenderTrack: React.FC<RenderTrackProps> = ({ track }) => {
 
   return (
     <div>
-      <h6>{track.title}</h6>
+      <h6>{track.position}. {track.title}</h6>
       <ul>
-        <li>Track #: {track.position}</li>
-        <li>Track length: {track.duration}</li>
+        <li><h6>Track length: {track.duration}</h6></li>
       </ul>
       <div>
         {
