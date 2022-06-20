@@ -11,11 +11,20 @@ interface ReleaseDetailsProps {
 const ReleaseDetails: React.FC<ReleaseDetailsProps> = ({ releasesUrl }) => {
 
   const [displayedReleases, setDisplayedReleases] = useState<Release[]>();
+  const token = process.env.TOKEN;
 
   useEffect(() => {
     try {
       axios
-        .get(releasesUrl)
+        .request({
+          url: releasesUrl,
+          method: 'get',
+          responseType: 'json',
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+            'Authorization': 'Discogs token=' + token
+          }
+        })
         .then((res) => setDisplayedReleases(res.data.releases))
     } catch(err) {
       console.log(err);
