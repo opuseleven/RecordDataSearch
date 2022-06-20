@@ -19,7 +19,9 @@ const RenderTrack: React.FC<RenderTrackProps> = ({ track }) => {
         {
           extraArtists && (
             extraArtists.map(a => (
-              <RenderExtraArtist extraArtist={a} />
+              <div key={a.id.toString()}>
+                <RenderExtraArtist extraArtist={a} />
+              </div>
             ))
           )
         }
