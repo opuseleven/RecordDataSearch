@@ -9,7 +9,6 @@ describe('RenderExtraArtist component', () => {
 
   it('Component renders', () => {
     render(<RenderExtraArtist extraArtist={extraArtists[2]} />);
-    expect(screen.getAllByRole('heading')[0]).toHaveTextContent('Bill Henderson');
-    expect(screen.getAllByRole('heading')[1]).toHaveTextContent('Mastered By');
+    expect(screen.getByRole('heading')).toHaveTextContent('Mastered By - Bill Henderson');
   })
 })
