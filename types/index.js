@@ -5,3 +5,4 @@ export * from './DiscogObj';
 export * from './Format';
 export * from './Track';
 export * from './ExtraArtist';
+export * from './ReleaseImg';
