@@ -73,7 +73,7 @@ const Home: NextPage = () => {
           {
             !artist && (
               <h3 className={styles.info}>
-                Search by name of musical artist to see info on the artist's full discography
+                Search by name of musical artist to see info on the artist's full discography. Spelling must be exact.
               </h3>
             )
           }
