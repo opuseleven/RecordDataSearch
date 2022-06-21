@@ -1,5 +1,6 @@
 import { DetailedRelease } from '../types';
 import { RenderDiscogObj, RenderExtraArtist, RenderTrack } from '.';
+import { useState, useEffect } from 'react';
 import styles from '../styles/Components.module.css';
 
 interface DisplayDetailedReleaseProps {
@@ -8,22 +9,33 @@ interface DisplayDetailedReleaseProps {
 
 const DisplayDetailedRelease: React.FC<DisplayDetailedReleaseProps> = ({ detailedRelease }) => {
 
-  const companies = detailedRelease.companies;
-  const labels = detailedRelease.labels;
-  const tracklist = detailedRelease.tracklist;
-  const extraArtists = detailedRelease.extraartists;
+  const [release, setRelease] = useState(detailedRelease);
+
+  const [companies, setCompanies] = useState(detailedRelease.companies);
+  const [labels, setLabels] = useState(detailedRelease.labels);
+  const [tracklist, setTracklist] = useState(detailedRelease.tracklist);
+  const [extraArtists, setExtraArtists] = useState(detailedRelease.extraartists);
+
+
+  useEffect(() => {
+    setRelease(detailedRelease);
+    setCompanies(detailedRelease.companies);
+    setLabels(detailedRelease.labels);
+    setTracklist(detailedRelease.tracklist);
+    setExtraArtists(detailedRelease.extraartists);
+  }, [detailedRelease])
 
   return (
     <div>
-      <h4>{detailedRelease.title}</h4>
+      <h4>{release.title}</h4>
 
       <div>
         <ul>
-          <li>Year: {detailedRelease.released}</li>
-          <li>Country: {detailedRelease.country}</li>
-          <li>Genres: {detailedRelease.genres}</li>
+          <li>Year: {release.released}</li>
+          <li>Country: {release.country}</li>
+          <li>Genres: {release.genres}</li>
           <li className={styles.discoglink}>
-            <a target='_blank' href={detailedRelease.uri}>
+            <a target='_blank' href={release.uri}>
               View on Discogs
             </a>
           </li>
