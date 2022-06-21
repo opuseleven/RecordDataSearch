@@ -1,5 +1,6 @@
 import { Track } from '../types';
 import { RenderExtraArtist } from '.';
+import { useState, useEffect } from 'react';
 
 interface RenderTrackProps {
   track: Track
@@ -7,13 +8,19 @@ interface RenderTrackProps {
 
 const RenderTrack: React.FC<RenderTrackProps> = ({ track }) => {
 
-  const extraArtists = track.extraartists;
+  const [displayedTrack, setDisplayedTrack] = useState(track);
+  const [extraArtists, setExtraArtists] = useState(track.extraartists);
+
+  useEffect(() => {
+    setDisplayedTrack(track);
+    setExtraArtists(track.extraartists);
+  }, [track])
 
   return (
     <div>
-      <h6>{track.position}. {track.title}</h6>
+      <h6>{displayedTrack.position}. {displayedTrack.title}</h6>
       <ul>
-        <li><h6>Track length: {track.duration}</h6></li>
+        <li><h6>Track length: {displayedTrack.duration}</h6></li>
       </ul>
       <div>
         {
