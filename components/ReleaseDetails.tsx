@@ -16,7 +16,7 @@ const ReleaseDetails: React.FC<ReleaseDetailsProps> = ({ releasesUrl }) => {
   useEffect(() => {
     axios
       .request({
-        url: releasesUrl + '?sort=year&sort_order=desc&per_page=10',
+        url: releasesUrl + '?sort=year&sort_order=desc&per_page=5',
         method: 'get',
         responseType: 'json',
         headers: {
