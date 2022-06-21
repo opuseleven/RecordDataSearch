@@ -1,4 +1,5 @@
 import { ExtraArtist } from '../types';
+import { useState, useEffect } from 'react';
 
 interface RenderExtraArtistProps {
   extraArtist: ExtraArtist
@@ -6,10 +7,16 @@ interface RenderExtraArtistProps {
 
 const RenderExtraArtist: React.FC<RenderExtraArtistProps> = ({ extraArtist }) => {
 
+  const [artist, setArtist] = useState(extraArtist);
+
+  useEffect(() => {
+    setArtist(extraArtist);
+  }, [extraArtist])
+
   return (
     <div>
       <ul>
-        <li><h6>{extraArtist.role} - {extraArtist.name}</h6></li>
+        <li><h6>{artist.role} - {artist.name}</h6></li>
       </ul>
     </div>
   )
