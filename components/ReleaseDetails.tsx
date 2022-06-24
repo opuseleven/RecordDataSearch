@@ -1,7 +1,7 @@
-import { Release  } from '../types';
+import { Release, Pagination, defaultPagination } from '../types';
 import { useState, useEffect } from 'react';
 import { ReleasesNotFoundError } from '../errors';
-import { DisplayRelease } from '.';
+import { DisplayRelease, ResultsPageNav } from '.';
 import axios from 'axios';
 
 interface ReleaseDetailsProps {
@@ -11,12 +11,14 @@ interface ReleaseDetailsProps {
 const ReleaseDetails: React.FC<ReleaseDetailsProps> = ({ releasesUrl }) => {
 
   const [displayedReleases, setDisplayedReleases] = useState<Release[]>();
+  const [pageNumber, setPageNumber] = useState(1);
+  const [pagination, setPagination] = useState<Pagination>(defaultPagination());
   const token = process.env.TOKEN;
 
   useEffect(() => {
     axios
       .request({
-        url: releasesUrl + '?sort=year&sort_order=desc&per_page=5',
+        url: releasesUrl + '?sort=year&sort_order=desc&per_page=5&page=' + pageNumber.toString(),
         method: 'get',
         responseType: 'json',
         headers: {
@@ -24,12 +26,15 @@ const ReleaseDetails: React.FC<ReleaseDetailsProps> = ({ releasesUrl }) => {
           'Authorization': 'Discogs token=' + token
         }
       })
-      .then((res) => setDisplayedReleases(res.data.releases))
+      .then((res) => {
+        setDisplayedReleases(res.data.releases)
+        setPagination(res.data.pagination)
+      })
       .catch((err) => {
         console.log(err);
         setDisplayedReleases(ReleasesNotFoundError());
       });
-  }, [releasesUrl])
+  }, [releasesUrl, pageNumber])
 
   return (
     <div>
@@ -44,6 +49,9 @@ const ReleaseDetails: React.FC<ReleaseDetailsProps> = ({ releasesUrl }) => {
           )
         }
       </ul>
+      <div>
+        <ResultsPageNav page={pageNumber} setPage={setPageNumber} pagination={pagination} />
+      </div>
     </div>
   )
 }
