@@ -7,3 +7,4 @@ export * from './DisplayDetailedRelease';
 export * from './RenderDiscogObj';
 export * from './RenderExtraArtist';
 export * from './RenderTrack';
+export * from './ResultsPageNav';
