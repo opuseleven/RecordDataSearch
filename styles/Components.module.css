@@ -48,3 +48,22 @@
   cursor: pointer;
   color: blue;
 }
+
+.pagenavcontainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.pagenumber {
+  align-self: center;
+  padding-left: 24vw;
+  padding-right: 24vw;
+}
+
+.pagenavbackbutton {
+  align-self: flex-start;
+}
+
+.pagenavnextbutton {
+  align-self: flex-end;
+}
