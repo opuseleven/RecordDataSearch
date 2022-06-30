@@ -42,7 +42,9 @@ const DisplayRelease: React.FC<DisplayReleaseProps> = ({ release }) => {
         <li className={styles.detaillistitem}>Release Year: {displayedRelease.year}</li>
         <li className={styles.detaillistitem}>Format: {displayedRelease.format}</li>
         <li className={styles.detaillistitem}>
-          <a className={styles.discoglink} href={displayedRelease.resource_url} target='_blank'>
+          <a className={styles.discoglink} href={displayedRelease.resource_url}
+            target='_blank' rel="noreferrer"
+          >
             View raw data
           </a>
         </li>

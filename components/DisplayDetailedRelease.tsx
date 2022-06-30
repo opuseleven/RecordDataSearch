@@ -35,7 +35,7 @@ const DisplayDetailedRelease: React.FC<DisplayDetailedReleaseProps> = ({ detaile
           <li>Country: {release.country}</li>
           <li>Genres: {release.genres}</li>
           <li className={styles.discoglink}>
-            <a target='_blank' href={release.uri}>
+            <a target='_blank' href={release.uri} rel="noreferrer">
               View on Discogs
             </a>
           </li>
