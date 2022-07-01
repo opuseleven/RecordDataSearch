@@ -2,7 +2,7 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import { useState, useEffect } from 'react';
-import { SearchBar, ResultsContainer } from '../components';
+import { SearchBar, ResultsContainer, SettingsToolbar } from '../components';
 import { filterByArtists, artistMatch, getReleasesUrl } from '../services';
 import { Artist } from '../types';
 import { artistNotFoundError, dataError } from '../errors';
@@ -18,6 +18,7 @@ const Home: NextPage = () => {
   const [data, setData] = useState<Object[]>([]);
   const [releasesUrl, setReleasesUrl] = useState<string>('');
   const token = process.env.TOKEN;
+  const [darkMode, setDarkMode] = useState(false);
 
   useEffect(() => {
     if (artistSearch !== '') {
@@ -62,6 +63,8 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
+
+        <SettingsToolbar darkMode={darkMode} setDarkMode={setDarkMode} />
 
         <h1 className={styles.title}>
           RecordDataSearch
