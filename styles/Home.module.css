@@ -7,7 +7,19 @@
   padding: 4rem 0;
   flex: 1;
   display: flex;
+  background-color: white;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.maindark {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  background-color: #212529;
+  flex-direction: column;;
   justify-content: center;
   align-items: center;
 }
@@ -21,7 +33,23 @@
   align-items: center;
 }
 
+.footerdark {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #aeaeae;
+  justify-content: center;
+  align-items: center;
+}
+
 .footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.footerdark a {
   display: flex;
   justify-content: center;
   align-items: center;
