@@ -4,10 +4,11 @@ import { ArtistDetails, ReleaseDetails } from '../components';
 
 interface ResultsContainerProps {
   artist: Artist,
-  releasesUrl: string
+  releasesUrl: string,
+  darkMode: boolean
 }
 
-const ResultsContainer: React.FC<ResultsContainerProps> = ({ artist, releasesUrl }) => {
+const ResultsContainer: React.FC<ResultsContainerProps> = ({ artist, releasesUrl, darkMode }) => {
 
   const [displayedArtist, setDisplayedArtist] = useState(artist);
   const [url, setUrl] = useState(releasesUrl);
@@ -25,7 +26,7 @@ const ResultsContainer: React.FC<ResultsContainerProps> = ({ artist, releasesUrl
       <div>
         {
           displayedArtist && (
-            <ArtistDetails artist={displayedArtist} />
+            <ArtistDetails artist={displayedArtist} darkMode={darkMode} />
           )
         }
       </div>
@@ -33,7 +34,7 @@ const ResultsContainer: React.FC<ResultsContainerProps> = ({ artist, releasesUrl
       <div>
         {
           url && (
-            <ReleaseDetails releasesUrl={url} />
+            <ReleaseDetails releasesUrl={url} darkMode={darkMode} />
           )
         }
       </div>

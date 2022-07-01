@@ -2,13 +2,15 @@ import { Release, Pagination, defaultPagination } from '../types';
 import { useState, useEffect } from 'react';
 import { ReleasesNotFoundError } from '../errors';
 import { DisplayRelease, ResultsPageNav } from '.';
+import styles from '../styles/Components.module.css';
 import axios from 'axios';
 
 interface ReleaseDetailsProps {
-  releasesUrl: string
+  releasesUrl: string,
+  darkMode: boolean
 }
 
-const ReleaseDetails: React.FC<ReleaseDetailsProps> = ({ releasesUrl }) => {
+const ReleaseDetails: React.FC<ReleaseDetailsProps> = ({ releasesUrl, darkMode }) => {
 
   const [displayedReleases, setDisplayedReleases] = useState<Release[]>();
   const [pageNumber, setPageNumber] = useState(1);
@@ -42,8 +44,8 @@ const ReleaseDetails: React.FC<ReleaseDetailsProps> = ({ releasesUrl }) => {
         {
           displayedReleases && (
             displayedReleases.map((r: Release) => (
-              <li key={r.id.toString()}>
-                <DisplayRelease release={r} />
+              <li key={r.id.toString()} className={darkMode ? styles.listitemdark : styles.listitem}>
+                <DisplayRelease release={r} darkMode={darkMode} />
               </li>
             ))
           )

@@ -55,7 +55,7 @@ const Home: NextPage = () => {
   }, [data])
 
   return (
-    <div className={styles.container}>
+    <div className={darkMode ? styles.containerdark : styles.container}>
       <Head>
         <title>RecordDataSearch</title>
         <meta name="description" content="Record data search application home page" />
@@ -75,7 +75,7 @@ const Home: NextPage = () => {
         <div className={styles.infocontainer}>
           {
             !artist && (
-              <h3 className={styles.info}>
+              <h3 className={darkMode ? styles.infodark : styles.info}>
                 Search by name of musical artist to see info on the artist&#39;s full discography. Spelling must be exact.
               </h3>
             )
@@ -85,7 +85,7 @@ const Home: NextPage = () => {
         <div>
           {
             artist && (
-              <ResultsContainer artist={artist} releasesUrl={releasesUrl} />
+              <ResultsContainer artist={artist} releasesUrl={releasesUrl} darkMode={darkMode} />
             )
           }
         </div>

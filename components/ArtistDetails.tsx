@@ -1,10 +1,12 @@
 import { Artist } from '../types';
+import styles from '../styles/Components.module.css';
 
 interface ArtistDetailsProps {
-  artist: Artist
+  artist: Artist,
+  darkMode: boolean
 }
 
-const ArtistDetails: React.FC<ArtistDetailsProps> = ({ artist }) => {
+const ArtistDetails: React.FC<ArtistDetailsProps> = ({ artist, darkMode }) => {
 
   return (
     <div>
@@ -12,7 +14,9 @@ const ArtistDetails: React.FC<ArtistDetailsProps> = ({ artist }) => {
         {
           artist && (
             <div>
-              <h3>{artist.title}</h3>
+              <h3 className={darkMode ? styles.artisttitledark : styles.artisttitle}>
+                {artist.title}
+              </h3>
             </div>
           )
         }

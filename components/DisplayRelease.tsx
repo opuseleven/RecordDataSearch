@@ -5,10 +5,11 @@ import styles from '../styles/Components.module.css';
 import axios from 'axios';
 
 interface DisplayReleaseProps {
-  release: Release
+  release: Release,
+  darkMode: boolean
 }
 
-const DisplayRelease: React.FC<DisplayReleaseProps> = ({ release }) => {
+const DisplayRelease: React.FC<DisplayReleaseProps> = ({ release, darkMode }) => {
 
   const [showMore, setShowMore] = useState<boolean>(false);
   const [displayedRelease, setDisplayedRelease] = useState(release);
@@ -34,15 +35,32 @@ const DisplayRelease: React.FC<DisplayReleaseProps> = ({ release }) => {
   }, [release])
 
   return (
-    <div className={styles.releasecontainer}>
-      <h4>Release: {displayedRelease.title}</h4>
-      <h5>Artist(s): {displayedRelease.artist}</h5>
-      <ul className={styles.detaillist}>
-        <li className={styles.detaillistitem}>Label: {displayedRelease.label}</li>
-        <li className={styles.detaillistitem}>Release Year: {displayedRelease.year}</li>
-        <li className={styles.detaillistitem}>Format: {displayedRelease.format}</li>
-        <li className={styles.detaillistitem}>
-          <a className={styles.discoglink} href={displayedRelease.resource_url}
+    <div className={darkMode ? styles.releasecontainerdark : styles.releasecontainer}>
+
+      <h4 className={darkMode ? styles.artisttitledark : styles.artisttitle}>
+        Release: {displayedRelease.title}
+      </h4>
+
+      <h5 className={darkMode ? styles.artisttitledark : styles.artisttitle}>
+        Artist(s): {displayedRelease.artist}
+      </h5>
+
+      <ul className={darkMode ? styles.detaillistdark : styles.detaillist}>
+
+        <li className={darkMode ? styles.detaillistitemdark : styles.detaillistitem}>
+          Label: {displayedRelease.label}
+        </li>
+
+        <li className={darkMode ? styles.detaillistitemdark : styles.detaillistitem}>
+          Release Year: {displayedRelease.year}
+        </li>
+
+        <li className={darkMode ? styles.detaillistitemdark : styles.detaillistitem}>
+          Format: {displayedRelease.format}
+        </li>
+
+        <li className={darkMode ? styles.detaillistitemdark : styles.detaillistitem}>
+          <a className={darkMode ? styles.discoglinkdark : styles.discoglink} href={displayedRelease.resource_url}
             target='_blank' rel="noreferrer"
           >
             View raw data
@@ -61,7 +79,8 @@ const DisplayRelease: React.FC<DisplayReleaseProps> = ({ release }) => {
             <div>
               {
                 detailedRelease && (
-                  <DisplayDetailedRelease detailedRelease={detailedRelease} />
+                  <DisplayDetailedRelease detailedRelease={detailedRelease}
+                    darkMode={darkMode} />
                 )
               }
             </div>

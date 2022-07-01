@@ -4,10 +4,11 @@ import { useState, useEffect } from 'react';
 import styles from '../styles/Components.module.css';
 
 interface DisplayDetailedReleaseProps {
-  detailedRelease: DetailedRelease
+  detailedRelease: DetailedRelease,
+  darkMode: boolean
 }
 
-const DisplayDetailedRelease: React.FC<DisplayDetailedReleaseProps> = ({ detailedRelease }) => {
+const DisplayDetailedRelease: React.FC<DisplayDetailedReleaseProps> = ({ detailedRelease, darkMode }) => {
 
   const [release, setRelease] = useState(detailedRelease);
 
@@ -27,70 +28,96 @@ const DisplayDetailedRelease: React.FC<DisplayDetailedReleaseProps> = ({ detaile
 
   return (
     <div>
-      <h4>{release.title}</h4>
+
+      <h4 className={darkMode ? styles.releasetitledark : styles.releasetitle}>
+        {release.title}
+      </h4>
 
       <div>
         <ul>
-          <li>Year: {release.released}</li>
-          <li>Country: {release.country}</li>
-          <li>Genres: {release.genres}</li>
-          <li className={styles.discoglink}>
+          <li className={darkMode ? styles.releaseitemdark : styles.releaseitem}>
+            Year: {release.released}
+          </li>
+
+          <li className={darkMode ? styles.releaseitemdark : styles.releaseitem}>
+            Country: {release.country}
+          </li>
+
+          <li className={darkMode ? styles.releaseitemdark : styles.releaseitem}>
+            Genres: {release.genres}
+          </li>
+
+          <li className={darkMode ? styles.discoglinkdark : styles.discoglink}>
             <a target='_blank' href={release.uri} rel="noreferrer">
               View on Discogs
             </a>
           </li>
         </ul>
 
-        <div>
-          <h5>Labels:</h5>
+        <div className={darkMode ? styles.discogobjcontainerdark : styles.discogobjcontainer}>
+          <h5 className={darkMode ? styles.discogobjlabeldark : styles.discogobjlabel}>
+            Labels:
+          </h5>
           {
             labels && (
               labels.map(l => (
                 <div key={l.id.toString()}>
-                  <RenderDiscogObj obj={l} />
+                  <RenderDiscogObj obj={l} darkMode={darkMode} />
                 </div>
               ))
             )
           }
         </div>
 
-        <div>
-          <h5>Companies:</h5>
-          {
-            companies && (
-              companies.map(c => (
-                <div key={c.id.toString()}>
-                  <RenderDiscogObj obj={c} />
-                </div>
-              ))
-            )
-          }
+        <div className={darkMode ? styles.discogobjcontainerdark : styles.discogobjcontainer}>
+          <h5 className={darkMode ? styles.discogobjlabeldark : styles.discogobjlabel}>
+            Companies:
+          </h5>
+          <div>
+            {
+              companies && (
+                companies.map(c => (
+                  <div key={c.id.toString()}>
+                    <RenderDiscogObj obj={c} darkMode={darkMode} />
+                  </div>
+                ))
+              )
+            }
+          </div>
         </div>
 
-        <div>
-          <h5>Additional Artists:</h5>
-          {
-            extraArtists && (
-              extraArtists.map(a => (
-                <div key={a.id.toString()}>
-                  <RenderExtraArtist extraArtist={a} />
-                </div>
-              ))
-            )
-          }
+        <div className={darkMode ? styles.discogobjcontainerdark : styles.discogobjcontainer}>
+          <h5 className={darkMode ? styles.discogobjlabeldark : styles.discogobjlabel}>
+            Additional Artists:
+          </h5>
+          <div>
+            {
+              extraArtists && (
+                extraArtists.map(a => (
+                  <div key={a.id.toString()}>
+                    <RenderExtraArtist extraArtist={a} darkMode={darkMode} />
+                  </div>
+                ))
+              )
+            }
+          </div>
         </div>
 
-        <div>
-        <h5>Tracklist: </h5>
-          {
-            tracklist && (
-              tracklist.map(t => (
-                <div key={t.position.toString()}>
-                  <RenderTrack track={t} />
-                </div>
-              ))
-            )
-          }
+        <div className={darkMode ? styles.discogobjcontainerdark : styles.discogobjcontainer}>
+          <h5 className={darkMode ? styles.discogobjlabeldark : styles.discogobjlabel}>
+            Tracklist:
+          </h5>
+          <div>
+            {
+              tracklist && (
+                tracklist.map(t => (
+                  <div key={t.position.toString()}>
+                    <RenderTrack track={t} darkMode={darkMode} />
+                  </div>
+                ))
+              )
+            }
+          </div>
         </div>
       </div>
     </div>

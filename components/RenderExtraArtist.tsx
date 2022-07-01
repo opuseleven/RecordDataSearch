@@ -1,11 +1,13 @@
 import { ExtraArtist } from '../types';
+import styles from '../styles/Components.module.css';
 import { useState, useEffect } from 'react';
 
 interface RenderExtraArtistProps {
-  extraArtist: ExtraArtist
+  extraArtist: ExtraArtist,
+  darkMode: boolean
 }
 
-const RenderExtraArtist: React.FC<RenderExtraArtistProps> = ({ extraArtist }) => {
+const RenderExtraArtist: React.FC<RenderExtraArtistProps> = ({ extraArtist, darkMode }) => {
 
   const [artist, setArtist] = useState(extraArtist);
 
@@ -16,7 +18,11 @@ const RenderExtraArtist: React.FC<RenderExtraArtistProps> = ({ extraArtist }) =>
   return (
     <div>
       <ul>
-        <li><h6>{artist.role} - {artist.name}</h6></li>
+        <li>
+          <h6 className={darkMode ? styles.extraartistdark : styles.extraartist}>
+            {artist.role} - {artist.name}
+          </h6>
+        </li>
       </ul>
     </div>
   )
