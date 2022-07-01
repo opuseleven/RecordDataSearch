@@ -8,3 +8,5 @@ export * from './RenderDiscogObj';
 export * from './RenderExtraArtist';
 export * from './RenderTrack';
 export * from './ResultsPageNav';
+export * from './SettingsToolbar';
+export * from './DarkModeButton';
