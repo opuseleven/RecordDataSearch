@@ -1,5 +1,11 @@
 .container {
   padding: 0 2rem;
+  background-color: white;
+}
+
+.containerdark {
+  padding: 0 2rem;
+  background-color: #212529;
 }
 
 .main {
@@ -72,6 +78,15 @@
   line-height: 1.15;
   font-size: 4rem;
   padding-bottom: 4vh;
+  color: black;
+}
+
+.titledark {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+  padding-bottom: 4vh;
+  color: white;
 }
 
 .title,
@@ -138,6 +153,12 @@
 
 .info {
   text-align: center;
+  color: black;
+}
+
+.infodark {
+  text-align: center;
+  color: white;
 }
 
 .logo {

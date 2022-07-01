@@ -1,3 +1,11 @@
+.artisttitle {
+  color: black;
+}
+
+.artisttitledark {
+  color: white;
+}
+
 .searchformcontainer {
   padding-bottom: 16px;
 }
@@ -17,19 +25,42 @@
   border-bottom: 4px solid #eaeaea;
 }
 
+.releasecontainerdark {
+  padding: 4px;
+  padding-bottom: 16px;
+  border-bottom: 4px solid #aeaeae;
+}
+
 .detaillist {
   border-top: 1px solid black;
   padding: 2px;
   padding-top: 4px;
 }
 
+.detaillistdark {
+  border-top: 1px solid white;
+  padding: 2px;
+  padding-top: 4px;
+}
+
 .detaillistitem {
   padding: 2px;
+  color: black;
+}
+
+.detaillistitemdark {
+  padding: 2px;
+  color: white;
 }
 
 .detaillistitem a:hover {
   cursor: pointer;
   color: blue;
+}
+
+.detaillistitemdark a:hover {
+  cursor: pointer;
+  color: yellow;
 }
 
 .showmorebutton {
@@ -40,13 +71,98 @@
   border-bottom: 4px solid #eaeaea;
 }
 
-.discoglink {
+.objcontainerdark {
+  border-bottom: 4px solid #aeaeae;
+}
 
+.releasetitle {
+  color: black;
+}
+
+.releasetitledark {
+  color: white;
+}
+
+.releaseitem {
+  color: black;
+}
+
+.releaseitemdark {
+  color: white;
+}
+
+.discoglink a{
+  color: black;
+}
+
+.discoglinkdark a{
+  color: white;
 }
 
 .discoglink a:hover {
   cursor: pointer;
   color: blue;
+}
+
+.discoglinkdark a:hover {
+  cursor: pointer;
+  color: yellow;
+}
+
+.extraartist {
+  color: black;
+}
+
+.extraartistdark {
+  color: white;
+}
+
+.tracktitle {
+  color: black;
+}
+
+.tracktitledark {
+  color: white;
+}
+
+.trackdetails {
+  color: black;
+}
+
+.trackdetailsdark {
+  color: white;
+}
+
+.discogobjcontainer {
+  border-bottom: 4px solid #eaeaea;
+}
+
+.discogobjcontainerdark {
+  border-bottom: 4px solid #aeaeae;
+}
+
+.discogobjlabel {
+  color: black;
+}
+
+.discogobjlabeldark {
+  color: white;
+}
+
+.objtext {
+  color: black;
+}
+
+.objtextdark {
+  color: white;
+}
+
+.listitem {
+  color: black;
+}
+
+.listitemdark {
+  color: white;
 }
 
 .pagenavcontainer {
@@ -66,4 +182,16 @@
 
 .pagenavnextbutton {
   align-self: flex-end;
+}
+
+.settingstoolbar {
+  justify-content: flex-end;
+}
+
+.darkmodebuttondark {
+  color: black;
+}
+
+.darkmodebutton {
+  color: black;
 }
