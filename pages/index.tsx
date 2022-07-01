@@ -62,11 +62,11 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
+      <main className={darkMode ? styles.maindark : styles.main}>
 
         <SettingsToolbar darkMode={darkMode} setDarkMode={setDarkMode} />
 
-        <h1 className={styles.title}>
+        <h1 className={darkMode ? styles.titledark : styles.title}>
           RecordDataSearch
         </h1>
 
@@ -92,8 +92,10 @@ const Home: NextPage = () => {
 
       </main>
 
-      <footer className={styles.footer}>
+      <footer className={darkMode ? styles.footerdark : styles.footer}>
+
         <p>Data provided by Discogs</p>
+
       </footer>
     </div>
   )
