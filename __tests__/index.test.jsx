@@ -14,7 +14,7 @@ describe('Home page', () => {
     expect(screen.getAllByRole('heading')[0]).toHaveTextContent('RecordDataSearch');
     act(() => {
       fireEvent.change(screen.getByRole('textbox'), {target: {value: 'haunted like human'}});
-      fireEvent.click(screen.getByRole('button'));
+      fireEvent.click(screen.getAllByRole('button')[1]);
     })
     await act(async () => {
       await new Promise(r => setTimeout(r, 3000));
