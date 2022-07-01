@@ -185,13 +185,18 @@
 }
 
 .settingstoolbar {
+  min-width: 60vw;
+  display: flex;
+  flex-direction: row;
   justify-content: flex-end;
 }
 
 .darkmodebuttondark {
   color: black;
+  align-self: flex-end;
 }
 
 .darkmodebutton {
   color: black;
+  align-self: flex-end;
 }
