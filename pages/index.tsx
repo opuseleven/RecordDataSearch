@@ -94,7 +94,9 @@ const Home: NextPage = () => {
 
       <footer className={darkMode ? styles.footerdark : styles.footer}>
 
-        <p>Data provided by Discogs</p>
+      <p className={darkMode ? styles.footertextdark : styles.footertext}>
+        Data provided by <a href='www.discogs.com' target="_blank" rel="noreferrer">Discogs</a>
+      </p>
 
       </footer>
     </div>
