@@ -85,7 +85,8 @@ const Home: NextPage = () => {
         <div>
           {
             artist && (
-              <ResultsContainer artist={artist} releasesUrl={releasesUrl} darkMode={darkMode} />
+              <ResultsContainer artist={artist} releasesUrl={releasesUrl}
+                darkMode={darkMode} />
             )
           }
         </div>
@@ -94,9 +95,9 @@ const Home: NextPage = () => {
 
       <footer className={darkMode ? styles.footerdark : styles.footer}>
 
-      <p className={darkMode ? styles.footertextdark : styles.footertext}>
-        Data provided by <a href='www.discogs.com' target="_blank" rel="noreferrer">Discogs</a>
-      </p>
+        <p className={darkMode ? styles.footertextdark : styles.footertext}>
+          Data provided by <a href='www.discogs.com' target="_blank" rel="noreferrer">Discogs</a>
+        </p>
 
       </footer>
     </div>
