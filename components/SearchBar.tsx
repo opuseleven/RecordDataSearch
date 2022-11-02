@@ -24,7 +24,9 @@ const SearchBar: FC<SearchBarProps> = ({ setArtistSearch }) => {
         <input type="text" value={search} onChange={(e) => handleChange(e)}
           className={styles.searchinput}
         />
-        <button className={styles.searchbutton}>Search</button>
+        <button className={styles.searchbutton}>
+          Search
+        </button>
       </form>
     </div>
   )
