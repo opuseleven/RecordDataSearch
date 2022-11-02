@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { FC, useState, useEffect } from 'react';
 import {  Artist } from '../types';
 import { ArtistDetails, ReleaseDetails } from '../components';
 
@@ -8,7 +8,7 @@ interface ResultsContainerProps {
   darkMode: boolean
 }
 
-const ResultsContainer: React.FC<ResultsContainerProps> = ({ artist, releasesUrl, darkMode }) => {
+const ResultsContainer: FC<ResultsContainerProps> = ({ artist, releasesUrl, darkMode }) => {
 
   const [displayedArtist, setDisplayedArtist] = useState(artist);
   const [url, setUrl] = useState(releasesUrl);

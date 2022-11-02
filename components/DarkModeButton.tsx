@@ -1,11 +1,12 @@
+import { FC, Dispatch, SetStateAction } from 'react';
 import styles from '../styles/Components.module.css';
 
 interface DarkModeButtonProps {
   darkMode: boolean,
-  setDarkMode: React.Dispatch<React.SetStateAction<boolean>>
+  setDarkMode: Dispatch<SetStateAction<boolean>>
 }
 
-const DarkModeButton: React.FC<DarkModeButtonProps> = ({ darkMode, setDarkMode }) => {
+const DarkModeButton: FC<DarkModeButtonProps> = ({ darkMode, setDarkMode }) => {
 
   function handleClick() {
     setDarkMode(!darkMode);

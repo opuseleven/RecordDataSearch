@@ -1,14 +1,14 @@
-import { useState, useEffect } from 'react';
+import { FC, Dispatch, SetStateAction, useState, useEffect } from 'react';
 import { Pagination } from '../types';
 import styles from '../styles/Components.module.css';
 
 interface ResultsPageNavProps {
   page: number,
-  setPage: React.Dispatch<React.SetStateAction<number>>,
+  setPage: Dispatch<SetStateAction<number>>,
   pagination: Pagination
 }
 
-const ResultsPageNav: React.FC<ResultsPageNavProps> = ({ page, setPage, pagination }) => {
+const ResultsPageNav: FC<ResultsPageNavProps> = ({ page, setPage, pagination }) => {
 
   const [pageNumber, setPageNumber] = useState(page);
   const [lastPage, setLastPage] = useState(pagination.pages)

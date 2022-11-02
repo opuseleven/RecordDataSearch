@@ -1,4 +1,5 @@
 import { Artist } from '../types';
+import { FC } from 'react';
 import styles from '../styles/Components.module.css';
 
 interface ArtistDetailsProps {
@@ -6,7 +7,7 @@ interface ArtistDetailsProps {
   darkMode: boolean
 }
 
-const ArtistDetails: React.FC<ArtistDetailsProps> = ({ artist, darkMode }) => {
+const ArtistDetails: FC<ArtistDetailsProps> = ({ artist, darkMode }) => {
 
   return (
     <div>

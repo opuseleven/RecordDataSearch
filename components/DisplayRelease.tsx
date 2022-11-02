@@ -1,5 +1,5 @@
 import { Release, DetailedRelease } from '../types';
-import { useState, useEffect } from 'react';
+import { FC, useState, useEffect } from 'react';
 import { DisplayDetailedRelease } from '.';
 import styles from '../styles/Components.module.css';
 import axios from 'axios';
@@ -9,7 +9,7 @@ interface DisplayReleaseProps {
   darkMode: boolean
 }
 
-const DisplayRelease: React.FC<DisplayReleaseProps> = ({ release, darkMode }) => {
+const DisplayRelease: FC<DisplayReleaseProps> = ({ release, darkMode }) => {
 
   const [showMore, setShowMore] = useState<boolean>(false);
   const [displayedRelease, setDisplayedRelease] = useState(release);

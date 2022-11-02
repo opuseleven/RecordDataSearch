@@ -1,19 +1,19 @@
-import { useState } from 'react';
+import { FC, Dispatch, SetStateAction, ChangeEvent, FormEvent, useState } from 'react';
 import styles from '../styles/Components.module.css';
 
 interface SearchBarProps {
-  setArtistSearch: React.Dispatch<React.SetStateAction<string>>
+  setArtistSearch: Dispatch<SetStateAction<string>>
 }
 
-const SearchBar: React.FC<SearchBarProps> = ({ setArtistSearch }) => {
+const SearchBar: FC<SearchBarProps> = ({ setArtistSearch }) => {
 
   const [search, setSearch] = useState('');
 
-  function handleChange(e: React.ChangeEvent<HTMLInputElement>) {
+  function handleChange(e: ChangeEvent<HTMLInputElement>) {
     setSearch(e.target.value);
   }
 
-  function handleClick(e: React.FormEvent<HTMLFormElement>) {
+  function handleClick(e: FormEvent<HTMLFormElement>) {
     e.preventDefault()
     setArtistSearch(search);
   }

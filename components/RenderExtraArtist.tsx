@@ -1,13 +1,13 @@
 import { ExtraArtist } from '../types';
 import styles from '../styles/Components.module.css';
-import { useState, useEffect } from 'react';
+import { FC, useState, useEffect } from 'react';
 
 interface RenderExtraArtistProps {
   extraArtist: ExtraArtist,
   darkMode: boolean
 }
 
-const RenderExtraArtist: React.FC<RenderExtraArtistProps> = ({ extraArtist, darkMode }) => {
+const RenderExtraArtist: FC<RenderExtraArtistProps> = ({ extraArtist, darkMode }) => {
 
   const [artist, setArtist] = useState(extraArtist);
 

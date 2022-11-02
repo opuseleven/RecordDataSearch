@@ -1,5 +1,5 @@
 import { DiscogObj } from '../types';
-import { useState, useEffect } from 'react';
+import { FC, useState, useEffect } from 'react';
 import styles from '../styles/Components.module.css';
 
 interface RenderDiscogObjProps {
@@ -7,7 +7,7 @@ interface RenderDiscogObjProps {
   darkMode: boolean
 }
 
-const RenderDiscogObj: React.FC<RenderDiscogObjProps> = ({ obj, darkMode }) => {
+const RenderDiscogObj: FC<RenderDiscogObjProps> = ({ obj, darkMode }) => {
 
   const [displayedObj, setDisplayedObj] = useState(obj);
 

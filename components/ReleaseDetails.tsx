@@ -1,5 +1,5 @@
 import { Release, Pagination, defaultPagination } from '../types';
-import { useState, useEffect } from 'react';
+import { FC, useState, useEffect } from 'react';
 import { ReleasesNotFoundError } from '../errors';
 import { DisplayRelease, ResultsPageNav } from '.';
 import styles from '../styles/Components.module.css';
@@ -10,7 +10,7 @@ interface ReleaseDetailsProps {
   darkMode: boolean
 }
 
-const ReleaseDetails: React.FC<ReleaseDetailsProps> = ({ releasesUrl, darkMode }) => {
+const ReleaseDetails: FC<ReleaseDetailsProps> = ({ releasesUrl, darkMode }) => {
 
   const [displayedReleases, setDisplayedReleases] = useState<Release[]>();
   const [pageNumber, setPageNumber] = useState(1);

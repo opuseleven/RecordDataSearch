@@ -1,6 +1,6 @@
 import { DetailedRelease } from '../types';
 import { RenderDiscogObj, RenderExtraArtist, RenderTrack } from '.';
-import { useState, useEffect } from 'react';
+import { FC, useState, useEffect } from 'react';
 import styles from '../styles/Components.module.css';
 
 interface DisplayDetailedReleaseProps {
@@ -8,7 +8,7 @@ interface DisplayDetailedReleaseProps {
   darkMode: boolean
 }
 
-const DisplayDetailedRelease: React.FC<DisplayDetailedReleaseProps> = ({ detailedRelease, darkMode }) => {
+const DisplayDetailedRelease: FC<DisplayDetailedReleaseProps> = ({ detailedRelease, darkMode }) => {
 
   const [release, setRelease] = useState(detailedRelease);
 

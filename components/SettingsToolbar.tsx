@@ -1,12 +1,13 @@
 import { DarkModeButton } from '.';
+import { FC, Dispatch, SetStateAction } from 'react';
 import styles from '../styles/Components.module.css';
 
 interface SettingsToolbarProps {
   darkMode: boolean,
-  setDarkMode: React.Dispatch<React.SetStateAction<boolean>>
+  setDarkMode: Dispatch<SetStateAction<boolean>>
 }
 
-const SettingsToolbar: React.FC<SettingsToolbarProps> = ({ darkMode, setDarkMode }) => {
+const SettingsToolbar: FC<SettingsToolbarProps> = ({ darkMode, setDarkMode }) => {
 
   return (
     <div className={styles.settingstoolbar}>

@@ -1,14 +1,14 @@
 import { Track } from '../types';
 import { RenderExtraArtist } from '.';
 import styles from '../styles/Components.module.css';
-import { useState, useEffect } from 'react';
+import { FC, useState, useEffect } from 'react';
 
 interface RenderTrackProps {
   track: Track,
   darkMode: boolean
 }
 
-const RenderTrack: React.FC<RenderTrackProps> = ({ track, darkMode }) => {
+const RenderTrack: FC<RenderTrackProps> = ({ track, darkMode }) => {
 
   const [displayedTrack, setDisplayedTrack] = useState(track);
   const [extraArtists, setExtraArtists] = useState(track.extraartists);
