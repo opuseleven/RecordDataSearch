@@ -21,4 +21,12 @@ describe('DarkModeButton component', () => {
     })
     expect(darkMode).toBe(true);
   })
+
+  it('Component functions to toggle darkMode back', () => {
+    render(<DarkModeButton darkMode={darkMode} setDarkMode={setDarkMode} />);
+    act(() => {
+      fireEvent.click(screen.getByRole('button'));
+    })
+    expect(darkMode).toBe(false);
+  })
 })
