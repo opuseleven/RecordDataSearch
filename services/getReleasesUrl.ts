@@ -1,7 +1,8 @@
 import { Artist } from '../types';
+import { Dispatch, SetStateAction } from 'react';
 import axios from 'axios';
 
-function getReleasesUrl(artist: Artist, setReleasesUrl: React.Dispatch<React.SetStateAction<string>>) {
+function getReleasesUrl(artist: Artist, setReleasesUrl: Dispatch<SetStateAction<string>>) {
 
   const url = 'https://api.discogs.com/artists/' + artist.id.toString();
   const token = process.env.TOKEN;

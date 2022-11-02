@@ -1,7 +1,8 @@
 import { Release } from '../types';
+import { Dispatch, SetStateAction } from 'react';
 import axios from 'axios';
 
-function setAllReleases(url: string, setReleases: React.Dispatch<React.SetStateAction<Release[] | undefined>>) {
+function setAllReleases(url: string, setReleases: Dispatch<SetStateAction<Release[] | undefined>>) {
 
   const token = process.env.TOKEN;
 
