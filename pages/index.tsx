@@ -18,7 +18,7 @@ const Home: NextPage = () => {
   const [data, setData] = useState<Object[]>([]);
   const [releasesUrl, setReleasesUrl] = useState<string>('');
   const token = process.env.TOKEN;
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   useEffect(() => {
     if (artistSearch !== '') {
