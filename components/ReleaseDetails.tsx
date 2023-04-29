@@ -17,10 +17,10 @@ const ReleaseDetails: FC<ReleaseDetailsProps> = ({ releasesUrl, darkMode }) => {
   const [pagination, setPagination] = useState<Pagination>(defaultPagination());
   const token = process.env.TOKEN;
 
-  useEffect(() => {
-    axios
+  async function requestReleaseData(url: string) {
+    await axios
       .request({
-        url: releasesUrl + '?sort=year&sort_order=desc&per_page=5&page=' + pageNumber.toString(),
+        url: url + '?sort=year&sort_order=desc&per_page=5&page=' + pageNumber.toString(),
         method: 'get',
         responseType: 'json',
         headers: {
@@ -36,6 +36,14 @@ const ReleaseDetails: FC<ReleaseDetailsProps> = ({ releasesUrl, darkMode }) => {
         console.log(err);
         setDisplayedReleases(ReleasesNotFoundError());
       });
+  }
+
+  useEffect(() => {
+    const source = axios.CancelToken.source();
+    requestReleaseData(releasesUrl);
+    return () => {
+      source.cancel();
+    }
   }, [releasesUrl, pageNumber])
 
   return (
