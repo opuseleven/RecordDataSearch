@@ -20,24 +20,32 @@ const Home: NextPage = () => {
   const token = process.env.TOKEN;
   const [darkMode, setDarkMode] = useState(true);
 
+  async function requestArtistData(search: string) {
+    await axios
+      .request({
+        url: 'https://api.discogs.com/database/search?q=' + search,
+        method: 'get',
+        responseType: 'json',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded',
+          'Authorization': 'Discogs token=' + token
+        }
+      })
+      .then((res) => setData(res.data.results))
+      .catch((err) => {
+        console.log(err);
+        const error = dataError();
+        setData(error);
+      })
+  }
+
   useEffect(() => {
+    const source = axios.CancelToken.source();
     if (artistSearch !== '') {
-      axios
-        .request({
-          url: 'https://api.discogs.com/database/search?q=' + artistSearch,
-          method: 'get',
-          responseType: 'json',
-          headers: {
-            'Content-Type': 'application/x-www-form-urlencoded',
-            'Authorization': 'Discogs token=' + token
-          }
-        })
-        .then((res) => setData(res.data.results))
-        .catch((err) => {
-          console.log(err);
-          const error = dataError();
-          setData(error);
-        })
+      requestArtistData(artistSearch);
+      }
+      return () => {
+        source.cancel();
       }
     }, [artistSearch])
 
