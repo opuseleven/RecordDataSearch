@@ -75,7 +75,7 @@ const Home: NextPage = () => {
         <SettingsToolbar darkMode={darkMode} setDarkMode={setDarkMode} />
 
         <h1 className={darkMode ? styles.titledark : styles.title}>
-          RecordDataSearch
+          <span>Record</span><span>Data</span><span>Search</span>
         </h1>
 
         <SearchBar setArtistSearch={setArtistSearch} />
