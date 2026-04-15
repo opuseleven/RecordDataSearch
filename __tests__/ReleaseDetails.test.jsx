@@ -11,7 +11,7 @@ describe('ReleaseDetails component', () => {
     await act(async () => {
       await new Promise(r => setTimeout(r, 3000));
     })
-    expect(screen.getAllByRole('heading')[0]).toHaveTextContent('Tall Tales & Fables');
+    expect(screen.getAllByRole('heading')[0]).toHaveTextContent('American Mythology');
     expect(screen.getAllByRole('heading')[1]).toHaveTextContent('Haunted Like Human');
   })
 })

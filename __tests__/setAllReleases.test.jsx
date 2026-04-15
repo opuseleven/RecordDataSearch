@@ -10,6 +10,6 @@ describe('setAllReleases service', () => {
   it('Retrieves releases data', async () => {
     setAllReleases('https://api.discogs.com/artists/7628210/releases', setReleases);
     await new Promise(r => setTimeout(r, 3000));
-      expect(releases.length).toBe(6);
+      expect(releases.length).toBe(7);
   })
 })
