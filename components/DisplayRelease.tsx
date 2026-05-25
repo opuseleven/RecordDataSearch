@@ -35,7 +35,7 @@ const DisplayRelease: FC<DisplayReleaseProps> = ({ release, darkMode }) => {
   }, [release])
 
   return (
-    <div className={darkMode ? styles.releasecontainerdark : styles.releasecontainer}>
+    <div className={darkMode ? styles.releasecontainerdark : styles.releasecontainer} key={release.id}>
 
       <h4 className={darkMode ? styles.artisttitledark : styles.artisttitle}>
         Release: {displayedRelease.title}

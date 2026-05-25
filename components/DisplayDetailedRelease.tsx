@@ -94,7 +94,7 @@ const DisplayDetailedRelease: FC<DisplayDetailedReleaseProps> = ({ detailedRelea
             {
               extraArtists && (
                 extraArtists.map(a => (
-                  <div key={a.id.toString()}>
+                  <div key={a.id.toString() + detailedRelease.id.toString() + a.tracks?.toString()}>
                     <RenderExtraArtist extraArtist={a} darkMode={darkMode} />
                   </div>
                 ))
@@ -111,7 +111,7 @@ const DisplayDetailedRelease: FC<DisplayDetailedReleaseProps> = ({ detailedRelea
             {
               tracklist && (
                 tracklist.map(t => (
-                  <div key={t.position.toString()}>
+                  <div key={release.id.toString() + t.position.toString()}>
                     <RenderTrack track={t} darkMode={darkMode} />
                   </div>
                 ))
